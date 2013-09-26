@@ -1,0 +1,122 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0b38d67342575789ce0cd8f4cd09e026",
+    "packages": [
+
+    ],
+    "packages-dev": [
+        {
+            "name": "phing/phing",
+            "version": "2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phingofficial/phing.git",
+                "reference": "3f7d71bf561bafea39087250f777b349438cc32e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/3f7d71bf561bafea39087250f777b349438cc32e",
+                "reference": "3f7d71bf561bafea39087250f777b349438cc32e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "bin": [
+                "bin/phing"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/phing/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "classes"
+            ],
+            "license": [
+                "LGPL3"
+            ],
+            "authors": [
+                {
+                    "name": "Michiel Rook",
+                    "email": "mrook@php.net"
+                },
+                {
+                    "name": "Phing Community",
+                    "homepage": "http://www.phing.info/trac/wiki/Development/Contributors"
+                }
+            ],
+            "description": "PHing Is Not GNU make; it's a PHP project build system or build tool based on Apache Ant.",
+            "homepage": "http://www.phing.info/",
+            "keywords": [
+                "build",
+                "task",
+                "tool"
+            ],
+            "time": "2013-08-26 21:13:03"
+        },
+        {
+            "name": "wsdl2phpgenerator/wsdl2phpgenerator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chriskl/wsdl2phpgenerator.git",
+                "reference": "3cd6731f47fc189f29b38652774163b3f4a32fce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chriskl/wsdl2phpgenerator/zipball/3cd6731f47fc189f29b38652774163b3f4a32fce",
+                "reference": "3cd6731f47fc189f29b38652774163b3f4a32fce",
+                "shasum": ""
+            },
+            "require": {
+                "ext-soap": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "bin": [
+                "wsdl2php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Wsdl2PhpGenerator\\": [
+                        "src/",
+                        "lib/cli/",
+                        "lib/config/",
+                        "lib/phpSource/"
+                    ]
+                }
+            },
+            "description": "Simple utility and class library for generating php classes from a wsdl file.",
+            "keywords": [
+                "soap",
+                "wsdl"
+            ],
+            "support": {
+                "source": "https://github.com/chriskl/wsdl2phpgenerator/tree/master"
+            },
+            "time": "2013-09-26 08:05:43"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": 20
+    },
+    "platform": {
+        "ext-soap": "*"
+    },
+    "platform-dev": [
+
+    ]
+}

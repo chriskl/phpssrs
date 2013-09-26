@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Navigate" default="build">
     <target name="rs2005">
-        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2005.wsdl -o ../library/PhpSsrs/ReportingService2005 -n 'PhpSsrs\ReportingService2005' --noIncludes" passthru="true"/>
+        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2005.wsdl -o library/PhpSsrs/ReportingService2005 -n 'PhpSsrs\ReportingService2005' --noIncludes" passthru="true"/>
     </target>
     <target name="rs2006">
-        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2006.wsdl -o ../library/PhpSsrs/ReportingService2006 -n 'PhpSsrs\ReportingService2006' --noIncludes" passthru="true"/>
+        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2006.wsdl -o library/PhpSsrs/ReportingService2006 -n 'PhpSsrs\ReportingService2006' --noIncludes" passthru="true"/>
     </target>
     <target name="rs2010">
-        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2010.wsdl -o ../library/PhpSsrs/ReportingService2010 -n 'PhpSsrs\ReportingService2010' --noIncludes" passthru="true"/>
+        <exec command="vendor/bin/wsdl2php -i wsdl/ReportService2010.wsdl -o library/PhpSsrs/ReportingService2010 -n 'PhpSsrs\ReportingService2010' --noIncludes" passthru="true"/>
     </target>
      <target name="res2005">
-        <exec command="vendor/bin/wsdl2php -i wsdl/ReportExecution2005.wsdl -o ../library/PhpSsrs/ReportExecutionService -n 'PhpSsrs\ReportExecutionService' --noIncludes" passthru="true"/>
+        <exec command="vendor/bin/wsdl2php -i wsdl/ReportExecution2005.wsdl -o library/PhpSsrs/ReportExecutionService -n 'PhpSsrs\ReportExecutionService' --noIncludes" passthru="true"/>
     </target>
    <target name="build" depends="rs2005,rs2006,rs2010,res2005"/>
 </project>

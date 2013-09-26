@@ -1,0 +1,43 @@
+<?php
+
+namespace PhpSsrs\ReportingService2006;
+
+class Task
+{
+
+  /**
+   * 
+   * @var string $TaskID
+   * @access public
+   */
+  public $TaskID = null;
+
+  /**
+   * 
+   * @var string $Name
+   * @access public
+   */
+  public $Name = null;
+
+  /**
+   * 
+   * @var string $Description
+   * @access public
+   */
+  public $Description = null;
+
+  /**
+   * 
+   * @param string $TaskID
+   * @param string $Name
+   * @param string $Description
+   * @access public
+   */
+  public function __construct($TaskID, $Name, $Description)
+  {
+    $this->TaskID = $TaskID;
+    $this->Name = $Name;
+    $this->Description = $Description;
+  }
+
+}

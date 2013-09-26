@@ -1,0 +1,34 @@
+<?php
+
+namespace PhpSsrs\ReportingService2005;
+
+class SetReportDefinition
+{
+
+  /**
+   * 
+   * @var string $Report
+   * @access public
+   */
+  public $Report = null;
+
+  /**
+   * 
+   * @var base64Binary $Definition
+   * @access public
+   */
+  public $Definition = null;
+
+  /**
+   * 
+   * @param string $Report
+   * @param base64Binary $Definition
+   * @access public
+   */
+  public function __construct($Report, $Definition)
+  {
+    $this->Report = $Report;
+    $this->Definition = $Definition;
+  }
+
+}

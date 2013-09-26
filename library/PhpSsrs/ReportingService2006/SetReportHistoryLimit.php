@@ -1,0 +1,43 @@
+<?php
+
+namespace PhpSsrs\ReportingService2006;
+
+class SetReportHistoryLimit
+{
+
+  /**
+   * 
+   * @var string $Report
+   * @access public
+   */
+  public $Report = null;
+
+  /**
+   * 
+   * @var boolean $UseSystem
+   * @access public
+   */
+  public $UseSystem = null;
+
+  /**
+   * 
+   * @var int $HistoryLimit
+   * @access public
+   */
+  public $HistoryLimit = null;
+
+  /**
+   * 
+   * @param string $Report
+   * @param boolean $UseSystem
+   * @param int $HistoryLimit
+   * @access public
+   */
+  public function __construct($Report, $UseSystem, $HistoryLimit)
+  {
+    $this->Report = $Report;
+    $this->UseSystem = $UseSystem;
+    $this->HistoryLimit = $HistoryLimit;
+  }
+
+}

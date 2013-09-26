@@ -1,0 +1,20 @@
+{
+    "name": "chriskl/phpssrs",
+    "description": "PHP SQL Server Reporting Services Client Library",
+    "keywords": ["ssrs", "reporting services"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Chris Kings-Lynne",
+            "email": "chris.kingslynne@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPSSRS\\": ["library/"]
+        }
+    }
+}

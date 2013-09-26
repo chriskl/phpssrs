@@ -16,5 +16,15 @@
         "psr-0": {
             "PhpSsrs\\": ["library/"]
         }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chriskl/wsdl2phpgenerator"
+        }
+    ],
+    "require-dev": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "dev-master",
+        "phing/phing": "~2.6"
     }
 }

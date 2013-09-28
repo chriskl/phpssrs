@@ -13,11 +13,12 @@ See also: [Report Server Web Service Endpoints on TechNet](http://technet.micros
 
 Originally developed by Chris Kings-Lynne, https://github.com/chriskl/phpssrs
 
-Pull requests are very welcome, this project is still rapidly being developed for an internal project.
+Pull requests are very welcome, this project is still rapidly being developed for an internal project.  Send your
+requests against the ```dev``` branch.
 
 ## SSRS Authentication
 
-For this library to work, you MUST enable Basic Authentication on your report server.  You must typically edit
+For this library to work, you will probably need to enable Basic Authentication on your report server.  You must typically edit
 the ```C:\Program Files\Microsoft SQL Server\MSRS10_50\Reporting Services\ReportServer\rsreportserver.config```
 file and add the following:
 

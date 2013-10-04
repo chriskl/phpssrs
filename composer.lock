@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chriskl/wsdl2phpgenerator.git",
-                "reference": "3cd6731f47fc189f29b38652774163b3f4a32fce"
+                "reference": "ded69cc58a6b489730cec752bdb86e9b636fba58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chriskl/wsdl2phpgenerator/zipball/3cd6731f47fc189f29b38652774163b3f4a32fce",
-                "reference": "3cd6731f47fc189f29b38652774163b3f4a32fce",
+                "url": "https://api.github.com/repos/chriskl/wsdl2phpgenerator/zipball/ded69cc58a6b489730cec752bdb86e9b636fba58",
+                "reference": "ded69cc58a6b489730cec752bdb86e9b636fba58",
                 "shasum": ""
             },
             "require": {
@@ -103,7 +103,7 @@
             "support": {
                 "source": "https://github.com/chriskl/wsdl2phpgenerator/tree/master"
             },
-            "time": "2013-09-26 08:05:43"
+            "time": "2013-10-04 01:38:45"
         }
     ],
     "aliases": [

@@ -17,7 +17,7 @@ class CreateCacheRefreshPlanResponse
    * @param string $CacheRefreshPlanID
    * @access public
    */
-  public function __construct($CacheRefreshPlanID)
+  public function __construct($CacheRefreshPlanID = null)
   {
     $this->CacheRefreshPlanID = $CacheRefreshPlanID;
   }

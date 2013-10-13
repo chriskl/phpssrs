@@ -17,7 +17,7 @@ class IsSSLRequiredResponse
    * @param boolean $IsSSLRequiredResult
    * @access public
    */
-  public function __construct($IsSSLRequiredResult)
+  public function __construct($IsSSLRequiredResult = null)
   {
     $this->IsSSLRequiredResult = $IsSSLRequiredResult;
   }

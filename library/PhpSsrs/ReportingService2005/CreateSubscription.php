@@ -57,7 +57,7 @@ class CreateSubscription
    * @param ParameterValue[] $Parameters
    * @access public
    */
-  public function __construct($Report, $ExtensionSettings, $Description, $EventType, $MatchData, $Parameters)
+  public function __construct($Report = null, $ExtensionSettings = null, $Description = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->Report = $Report;
     $this->ExtensionSettings = $ExtensionSettings;

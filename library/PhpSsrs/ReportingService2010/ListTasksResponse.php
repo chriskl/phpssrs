@@ -17,7 +17,7 @@ class ListTasksResponse
    * @param Task[] $Tasks
    * @access public
    */
-  public function __construct($Tasks)
+  public function __construct($Tasks = null)
   {
     $this->Tasks = $Tasks;
   }

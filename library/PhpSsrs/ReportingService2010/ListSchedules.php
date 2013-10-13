@@ -17,7 +17,7 @@ class ListSchedules
    * @param string $SiteUrl
    * @access public
    */
-  public function __construct($SiteUrl)
+  public function __construct($SiteUrl = null)
   {
     $this->SiteUrl = $SiteUrl;
   }

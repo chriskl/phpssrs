@@ -49,7 +49,7 @@ class ActiveState
    * @param boolean $UnknownReportParameter
    * @access public
    */
-  public function __construct($DeliveryExtensionRemoved, $SharedDataSourceRemoved, $MissingParameterValue, $InvalidParameterValue, $UnknownReportParameter)
+  public function __construct($DeliveryExtensionRemoved = null, $SharedDataSourceRemoved = null, $MissingParameterValue = null, $InvalidParameterValue = null, $UnknownReportParameter = null)
   {
     $this->DeliveryExtensionRemoved = $DeliveryExtensionRemoved;
     $this->SharedDataSourceRemoved = $SharedDataSourceRemoved;

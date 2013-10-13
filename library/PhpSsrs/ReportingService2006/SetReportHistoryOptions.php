@@ -57,7 +57,7 @@ class SetReportHistoryOptions
    * @param NoSchedule $NoSchedule
    * @access public
    */
-  public function __construct($Report, $EnableManualSnapshotCreation, $KeepExecutionSnapshots, $ScheduleDefinition, $ScheduleReference, $NoSchedule)
+  public function __construct($Report = null, $EnableManualSnapshotCreation = null, $KeepExecutionSnapshots = null, $ScheduleDefinition = null, $ScheduleReference = null, $NoSchedule = null)
   {
     $this->Report = $Report;
     $this->EnableManualSnapshotCreation = $EnableManualSnapshotCreation;

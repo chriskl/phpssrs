@@ -17,7 +17,7 @@ class GetItemReferencesResponse
    * @param ItemReferenceData[] $ItemReferences
    * @access public
    */
-  public function __construct($ItemReferences)
+  public function __construct($ItemReferences = null)
   {
     $this->ItemReferences = $ItemReferences;
   }

@@ -81,7 +81,7 @@ class GetDataDrivenSubscriptionPropertiesResponse
    * @param ParameterValueOrFieldReference[] $Parameters
    * @access public
    */
-  public function __construct($Owner, $ExtensionSettings, $DataRetrievalPlan, $Description, $Active, $Status, $EventType, $MatchData, $Parameters)
+  public function __construct($Owner = null, $ExtensionSettings = null, $DataRetrievalPlan = null, $Description = null, $Active = null, $Status = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->Owner = $Owner;
     $this->ExtensionSettings = $ExtensionSettings;

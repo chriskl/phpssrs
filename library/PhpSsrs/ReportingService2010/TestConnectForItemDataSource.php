@@ -41,7 +41,7 @@ class TestConnectForItemDataSource
    * @param string $Password
    * @access public
    */
-  public function __construct($ItemPath, $DataSourceName, $UserName, $Password)
+  public function __construct($ItemPath = null, $DataSourceName = null, $UserName = null, $Password = null)
   {
     $this->ItemPath = $ItemPath;
     $this->DataSourceName = $DataSourceName;

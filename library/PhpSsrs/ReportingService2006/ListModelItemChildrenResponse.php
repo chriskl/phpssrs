@@ -17,7 +17,7 @@ class ListModelItemChildrenResponse
    * @param ModelItem[] $ModelItems
    * @access public
    */
-  public function __construct($ModelItems)
+  public function __construct($ModelItems = null)
   {
     $this->ModelItems = $ModelItems;
   }

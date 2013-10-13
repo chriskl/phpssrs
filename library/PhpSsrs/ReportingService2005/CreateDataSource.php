@@ -49,7 +49,7 @@ class CreateDataSource
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($DataSource, $Parent, $Overwrite, $Definition, $Properties)
+  public function __construct($DataSource = null, $Parent = null, $Overwrite = null, $Definition = null, $Properties = null)
   {
     $this->DataSource = $DataSource;
     $this->Parent = $Parent;

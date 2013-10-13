@@ -25,7 +25,7 @@ class SetItemDataSources
    * @param DataSource[] $DataSources
    * @access public
    */
-  public function __construct($Item, $DataSources)
+  public function __construct($Item = null, $DataSources = null)
   {
     $this->Item = $Item;
     $this->DataSources = $DataSources;

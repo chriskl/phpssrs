@@ -41,7 +41,7 @@ class ServerInfoHeader
    * @param string $ReportServerDateTime
    * @access public
    */
-  public function __construct($ReportServerVersionNumber, $ReportServerEdition, $ReportServerVersion, $ReportServerDateTime)
+  public function __construct($ReportServerVersionNumber = null, $ReportServerEdition = null, $ReportServerVersion = null, $ReportServerDateTime = null)
   {
     $this->ReportServerVersionNumber = $ReportServerVersionNumber;
     $this->ReportServerEdition = $ReportServerEdition;

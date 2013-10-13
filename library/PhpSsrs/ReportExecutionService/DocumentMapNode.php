@@ -33,7 +33,7 @@ class DocumentMapNode
    * @param DocumentMapNode[] $Children
    * @access public
    */
-  public function __construct($Label, $UniqueName, $Children)
+  public function __construct($Label = null, $UniqueName = null, $Children = null)
   {
     $this->Label = $Label;
     $this->UniqueName = $UniqueName;

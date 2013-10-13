@@ -57,7 +57,7 @@ class RenderResponse
    * @param String[] $StreamIds
    * @access public
    */
-  public function __construct($Result, $Extension, $MimeType, $Encoding, $Warnings, $StreamIds)
+  public function __construct($Result = null, $Extension = null, $MimeType = null, $Encoding = null, $Warnings = null, $StreamIds = null)
   {
     $this->Result = $Result;
     $this->Extension = $Extension;

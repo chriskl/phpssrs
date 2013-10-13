@@ -25,7 +25,7 @@ class ValidValue
    * @param string $Value
    * @access public
    */
-  public function __construct($Label, $Value)
+  public function __construct($Label = null, $Value = null)
   {
     $this->Label = $Label;
     $this->Value = $Value;

@@ -25,7 +25,7 @@ class CreateSchedule
    * @param ScheduleDefinition $ScheduleDefinition
    * @access public
    */
-  public function __construct($Name, $ScheduleDefinition)
+  public function __construct($Name = null, $ScheduleDefinition = null)
   {
     $this->Name = $Name;
     $this->ScheduleDefinition = $ScheduleDefinition;

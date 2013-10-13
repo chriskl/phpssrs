@@ -25,7 +25,7 @@ class SetItemReferences
    * @param ItemReference[] $ItemReferences
    * @access public
    */
-  public function __construct($ItemPath, $ItemReferences)
+  public function __construct($ItemPath = null, $ItemReferences = null)
   {
     $this->ItemPath = $ItemPath;
     $this->ItemReferences = $ItemReferences;

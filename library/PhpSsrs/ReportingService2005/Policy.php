@@ -25,7 +25,7 @@ class Policy
    * @param Role[] $Roles
    * @access public
    */
-  public function __construct($GroupUserName, $Roles)
+  public function __construct($GroupUserName = null, $Roles = null)
   {
     $this->GroupUserName = $GroupUserName;
     $this->Roles = $Roles;

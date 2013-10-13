@@ -17,7 +17,7 @@ class ListModelPerspectives
    * @param string $Path
    * @access public
    */
-  public function __construct($Path)
+  public function __construct($Path = null)
   {
     $this->Path = $Path;
   }

@@ -17,7 +17,7 @@ class ListItemHistoryResponse
    * @param ItemHistorySnapshot[] $ItemHistory
    * @access public
    */
-  public function __construct($ItemHistory)
+  public function __construct($ItemHistory = null)
   {
     $this->ItemHistory = $ItemHistory;
   }

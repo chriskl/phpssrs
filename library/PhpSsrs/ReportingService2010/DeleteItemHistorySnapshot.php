@@ -25,7 +25,7 @@ class DeleteItemHistorySnapshot
    * @param string $HistoryID
    * @access public
    */
-  public function __construct($ItemPath, $HistoryID)
+  public function __construct($ItemPath = null, $HistoryID = null)
   {
     $this->ItemPath = $ItemPath;
     $this->HistoryID = $HistoryID;

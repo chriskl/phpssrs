@@ -17,7 +17,7 @@ class ListExtensions
    * @param string $ExtensionType
    * @access public
    */
-  public function __construct($ExtensionType)
+  public function __construct($ExtensionType = null)
   {
     $this->ExtensionType = $ExtensionType;
   }

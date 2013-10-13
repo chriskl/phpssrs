@@ -113,7 +113,7 @@ class CatalogItem
    * @param Property[] $ItemMetadata
    * @access public
    */
-  public function __construct($ID, $Name, $Path, $VirtualPath, $TypeName, $Size, $Description, $Hidden, $CreationDate, $ModifiedDate, $CreatedBy, $ModifiedBy, $ItemMetadata)
+  public function __construct($ID = null, $Name = null, $Path = null, $VirtualPath = null, $TypeName = null, $Size = null, $Description = null, $Hidden = null, $CreationDate = null, $ModifiedDate = null, $CreatedBy = null, $ModifiedBy = null, $ItemMetadata = null)
   {
     $this->ID = $ID;
     $this->Name = $Name;

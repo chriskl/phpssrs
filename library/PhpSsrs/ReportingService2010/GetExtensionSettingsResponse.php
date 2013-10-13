@@ -17,7 +17,7 @@ class GetExtensionSettingsResponse
    * @param ExtensionParameter[] $ExtensionParameters
    * @access public
    */
-  public function __construct($ExtensionParameters)
+  public function __construct($ExtensionParameters = null)
   {
     $this->ExtensionParameters = $ExtensionParameters;
   }

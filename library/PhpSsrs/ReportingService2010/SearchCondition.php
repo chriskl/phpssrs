@@ -33,7 +33,7 @@ class SearchCondition
    * @param string $Name
    * @access public
    */
-  public function __construct($Condition, $Values, $Name)
+  public function __construct($Condition = null, $Values = null, $Name = null)
   {
     $this->Condition = $Condition;
     $this->Values = $Values;

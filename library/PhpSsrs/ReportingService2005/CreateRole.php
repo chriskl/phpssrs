@@ -33,7 +33,7 @@ class CreateRole
    * @param Task[] $Tasks
    * @access public
    */
-  public function __construct($Name, $Description, $Tasks)
+  public function __construct($Name = null, $Description = null, $Tasks = null)
   {
     $this->Name = $Name;
     $this->Description = $Description;

@@ -17,7 +17,7 @@ class GetExtensionSettings
    * @param string $Extension
    * @access public
    */
-  public function __construct($Extension)
+  public function __construct($Extension = null)
   {
     $this->Extension = $Extension;
   }

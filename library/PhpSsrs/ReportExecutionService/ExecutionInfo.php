@@ -137,7 +137,7 @@ class ExecutionInfo
    * @param int $AutoRefreshInterval
    * @access public
    */
-  public function __construct($HasSnapshot, $NeedsProcessing, $AllowQueryExecution, $CredentialsRequired, $ParametersRequired, $ExpirationDateTime, $ExecutionDateTime, $NumPages, $Parameters, $DataSourcePrompts, $HasDocumentMap, $ExecutionID, $ReportPath, $HistoryID, $ReportPageSettings, $AutoRefreshInterval)
+  public function __construct($HasSnapshot = null, $NeedsProcessing = null, $AllowQueryExecution = null, $CredentialsRequired = null, $ParametersRequired = null, $ExpirationDateTime = null, $ExecutionDateTime = null, $NumPages = null, $Parameters = null, $DataSourcePrompts = null, $HasDocumentMap = null, $ExecutionID = null, $ReportPath = null, $HistoryID = null, $ReportPageSettings = null, $AutoRefreshInterval = null)
   {
     $this->HasSnapshot = $HasSnapshot;
     $this->NeedsProcessing = $NeedsProcessing;

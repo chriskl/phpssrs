@@ -57,7 +57,7 @@ class CreateCatalogItem
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($ItemType, $Name, $Parent, $Overwrite, $Definition, $Properties)
+  public function __construct($ItemType = null, $Name = null, $Parent = null, $Overwrite = null, $Definition = null, $Properties = null)
   {
     $this->ItemType = $ItemType;
     $this->Name = $Name;

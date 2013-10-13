@@ -41,7 +41,7 @@ class DataSource
    * @param DataSourceDefinition $DataSourceDefinition
    * @access public
    */
-  public function __construct($Name, $InvalidDataSourceReference, $DataSourceReference, $DataSourceDefinition)
+  public function __construct($Name = null, $InvalidDataSourceReference = null, $DataSourceReference = null, $DataSourceDefinition = null)
   {
     $this->Name = $Name;
     $this->InvalidDataSourceReference = $InvalidDataSourceReference;

@@ -17,7 +17,7 @@ class SetExecutionParametersResponse
    * @param ExecutionInfo $executionInfo
    * @access public
    */
-  public function __construct($executionInfo)
+  public function __construct($executionInfo = null)
   {
     $this->executionInfo = $executionInfo;
   }

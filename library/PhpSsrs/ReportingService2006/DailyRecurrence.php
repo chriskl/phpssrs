@@ -17,7 +17,7 @@ class DailyRecurrence
    * @param int $DaysInterval
    * @access public
    */
-  public function __construct($DaysInterval)
+  public function __construct($DaysInterval = null)
   {
     $this->DaysInterval = $DaysInterval;
   }

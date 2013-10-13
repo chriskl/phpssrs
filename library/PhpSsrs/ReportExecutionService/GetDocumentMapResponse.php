@@ -17,7 +17,7 @@ class GetDocumentMapResponse
    * @param DocumentMapNode $result
    * @access public
    */
-  public function __construct($result)
+  public function __construct($result = null)
   {
     $this->result = $result;
   }

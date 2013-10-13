@@ -25,7 +25,7 @@ class GetRolePropertiesResponse
    * @param string $Description
    * @access public
    */
-  public function __construct($Tasks, $Description)
+  public function __construct($Tasks = null, $Description = null)
   {
     $this->Tasks = $Tasks;
     $this->Description = $Description;

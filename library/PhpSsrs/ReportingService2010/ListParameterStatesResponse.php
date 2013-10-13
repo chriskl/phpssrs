@@ -17,7 +17,7 @@ class ListParameterStatesResponse
    * @param String1[] $ListParameterStatesResult
    * @access public
    */
-  public function __construct($ListParameterStatesResult)
+  public function __construct($ListParameterStatesResult = null)
   {
     $this->ListParameterStatesResult = $ListParameterStatesResult;
   }

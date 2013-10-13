@@ -33,7 +33,7 @@ class SortResponse
    * @param int $NumPages
    * @access public
    */
-  public function __construct($PageNumber, $ReportItem, $NumPages)
+  public function __construct($PageNumber = null, $ReportItem = null, $NumPages = null)
   {
     $this->PageNumber = $PageNumber;
     $this->ReportItem = $ReportItem;

@@ -25,7 +25,7 @@ class GetItemReferences
    * @param string $ReferenceItemType
    * @access public
    */
-  public function __construct($ItemPath, $ReferenceItemType)
+  public function __construct($ItemPath = null, $ReferenceItemType = null)
   {
     $this->ItemPath = $ItemPath;
     $this->ReferenceItemType = $ReferenceItemType;

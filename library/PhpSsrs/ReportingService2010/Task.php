@@ -33,7 +33,7 @@ class Task
    * @param string $Description
    * @access public
    */
-  public function __construct($TaskID, $Name, $Description)
+  public function __construct($TaskID = null, $Name = null, $Description = null)
   {
     $this->TaskID = $TaskID;
     $this->Name = $Name;

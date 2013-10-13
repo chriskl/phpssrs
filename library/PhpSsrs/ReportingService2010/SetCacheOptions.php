@@ -41,7 +41,7 @@ class SetCacheOptions
    * @param ScheduleExpiration $ScheduleExpiration
    * @access public
    */
-  public function __construct($ItemPath, $CacheItem, $TimeExpiration, $ScheduleExpiration)
+  public function __construct($ItemPath = null, $CacheItem = null, $TimeExpiration = null, $ScheduleExpiration = null)
   {
     $this->ItemPath = $ItemPath;
     $this->CacheItem = $CacheItem;

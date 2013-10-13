@@ -121,7 +121,7 @@ class CatalogItem
    * @param dateTime $ExecutionDate
    * @access public
    */
-  public function __construct($ID, $Name, $Path, $VirtualPath, $Type, $Size, $Description, $Hidden, $CreationDate, $ModifiedDate, $CreatedBy, $ModifiedBy, $MimeType, $ExecutionDate)
+  public function __construct($ID = null, $Name = null, $Path = null, $VirtualPath = null, $Type = null, $Size = null, $Description = null, $Hidden = null, $CreationDate = null, $ModifiedDate = null, $CreatedBy = null, $ModifiedBy = null, $MimeType = null, $ExecutionDate = null)
   {
     $this->ID = $ID;
     $this->Name = $Name;

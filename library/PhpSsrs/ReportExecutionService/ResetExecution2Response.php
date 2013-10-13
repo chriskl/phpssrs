@@ -17,7 +17,7 @@ class ResetExecution2Response
    * @param ExecutionInfo2 $executionInfo
    * @access public
    */
-  public function __construct($executionInfo)
+  public function __construct($executionInfo = null)
   {
     $this->executionInfo = $executionInfo;
   }

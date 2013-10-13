@@ -17,7 +17,7 @@ class GetModelItemPermissionsResponse
    * @param String1[] $Permissions
    * @access public
    */
-  public function __construct($Permissions)
+  public function __construct($Permissions = null)
   {
     $this->Permissions = $Permissions;
   }

@@ -73,7 +73,7 @@ class DataSetDefinition
    * @param string $Name
    * @access public
    */
-  public function __construct($Fields, $Query, $CaseSensitivity, $Collation, $AccentSensitivity, $KanatypeSensitivity, $WidthSensitivity, $Name)
+  public function __construct($Fields = null, $Query = null, $CaseSensitivity = null, $Collation = null, $AccentSensitivity = null, $KanatypeSensitivity = null, $WidthSensitivity = null, $Name = null)
   {
     $this->Fields = $Fields;
     $this->Query = $Query;

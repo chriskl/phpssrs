@@ -33,7 +33,7 @@ class ListModelItemChildren
    * @param boolean $Recursive
    * @access public
    */
-  public function __construct($Model, $ModelItemID, $Recursive)
+  public function __construct($Model = null, $ModelItemID = null, $Recursive = null)
   {
     $this->Model = $Model;
     $this->ModelItemID = $ModelItemID;

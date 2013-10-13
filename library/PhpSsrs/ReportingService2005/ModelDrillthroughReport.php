@@ -25,7 +25,7 @@ class ModelDrillthroughReport
    * @param DrillthroughType $Type
    * @access public
    */
-  public function __construct($Path, $Type)
+  public function __construct($Path = null, $Type = null)
   {
     $this->Path = $Path;
     $this->Type = $Type;

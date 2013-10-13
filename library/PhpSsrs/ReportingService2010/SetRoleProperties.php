@@ -33,7 +33,7 @@ class SetRoleProperties
    * @param String1[] $TaskIDs
    * @access public
    */
-  public function __construct($Name, $Description, $TaskIDs)
+  public function __construct($Name = null, $Description = null, $TaskIDs = null)
   {
     $this->Name = $Name;
     $this->Description = $Description;

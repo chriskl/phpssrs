@@ -57,7 +57,7 @@ class GetCacheRefreshPlanPropertiesResponse
    * @param ParameterValue[] $Parameters
    * @access public
    */
-  public function __construct($Description, $LastRunStatus, $State, $EventType, $MatchData, $Parameters)
+  public function __construct($Description = null, $LastRunStatus = null, $State = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->Description = $Description;
     $this->LastRunStatus = $LastRunStatus;

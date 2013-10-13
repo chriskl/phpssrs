@@ -33,7 +33,7 @@ class SetModelItemPolicies
    * @param Policy[] $Policies
    * @access public
    */
-  public function __construct($Model, $ModelItemID, $Policies)
+  public function __construct($Model = null, $ModelItemID = null, $Policies = null)
   {
     $this->Model = $Model;
     $this->ModelItemID = $ModelItemID;

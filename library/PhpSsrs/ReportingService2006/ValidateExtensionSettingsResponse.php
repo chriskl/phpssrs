@@ -17,7 +17,7 @@ class ValidateExtensionSettingsResponse
    * @param ExtensionParameter[] $ParameterErrors
    * @access public
    */
-  public function __construct($ParameterErrors)
+  public function __construct($ParameterErrors = null)
   {
     $this->ParameterErrors = $ParameterErrors;
   }

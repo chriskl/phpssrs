@@ -25,7 +25,7 @@ class ScheduleExpiration
    * @param ScheduleReference $ScheduleReference
    * @access public
    */
-  public function __construct($ScheduleDefinition, $ScheduleReference)
+  public function __construct($ScheduleDefinition = null, $ScheduleReference = null)
   {
     $this->ScheduleDefinition = $ScheduleDefinition;
     $this->ScheduleReference = $ScheduleReference;

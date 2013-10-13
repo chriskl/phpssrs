@@ -17,7 +17,7 @@ class CreateFolderResponse
    * @param CatalogItem $ItemInfo
    * @access public
    */
-  public function __construct($ItemInfo)
+  public function __construct($ItemInfo = null)
   {
     $this->ItemInfo = $ItemInfo;
   }

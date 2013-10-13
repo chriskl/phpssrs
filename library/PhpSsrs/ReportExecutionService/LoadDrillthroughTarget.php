@@ -17,7 +17,7 @@ class LoadDrillthroughTarget
    * @param string $DrillthroughID
    * @access public
    */
-  public function __construct($DrillthroughID)
+  public function __construct($DrillthroughID = null)
   {
     $this->DrillthroughID = $DrillthroughID;
   }

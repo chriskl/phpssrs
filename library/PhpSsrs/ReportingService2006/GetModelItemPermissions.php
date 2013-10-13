@@ -25,7 +25,7 @@ class GetModelItemPermissions
    * @param string $ModelItemID
    * @access public
    */
-  public function __construct($Model, $ModelItemID)
+  public function __construct($Model = null, $ModelItemID = null)
   {
     $this->Model = $Model;
     $this->ModelItemID = $ModelItemID;

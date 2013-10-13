@@ -17,7 +17,7 @@ class CreateSubscriptionResponse
    * @param string $SubscriptionID
    * @access public
    */
-  public function __construct($SubscriptionID)
+  public function __construct($SubscriptionID = null)
   {
     $this->SubscriptionID = $SubscriptionID;
   }

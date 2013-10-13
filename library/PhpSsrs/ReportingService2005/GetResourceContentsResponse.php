@@ -25,7 +25,7 @@ class GetResourceContentsResponse
    * @param string $MimeType
    * @access public
    */
-  public function __construct($Contents, $MimeType)
+  public function __construct($Contents = null, $MimeType = null)
   {
     $this->Contents = $Contents;
     $this->MimeType = $MimeType;

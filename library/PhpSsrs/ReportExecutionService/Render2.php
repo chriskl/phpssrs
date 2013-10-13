@@ -33,7 +33,7 @@ class Render2
    * @param PageCountMode $PaginationMode
    * @access public
    */
-  public function __construct($Format, $DeviceInfo, $PaginationMode)
+  public function __construct($Format = null, $DeviceInfo = null, $PaginationMode = null)
   {
     $this->Format = $Format;
     $this->DeviceInfo = $DeviceInfo;

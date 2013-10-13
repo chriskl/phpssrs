@@ -41,7 +41,7 @@ class Sort2
    * @param PageCountMode $PaginationMode
    * @access public
    */
-  public function __construct($SortItem, $Direction, $Clear, $PaginationMode)
+  public function __construct($SortItem = null, $Direction = null, $Clear = null, $PaginationMode = null)
   {
     $this->SortItem = $SortItem;
     $this->Direction = $Direction;

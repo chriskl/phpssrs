@@ -25,7 +25,7 @@ class PageSettings
    * @param ReportMargins $Margins
    * @access public
    */
-  public function __construct($PaperSize, $Margins)
+  public function __construct($PaperSize = null, $Margins = null)
   {
     $this->PaperSize = $PaperSize;
     $this->Margins = $Margins;

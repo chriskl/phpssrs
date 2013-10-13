@@ -41,7 +41,7 @@ class CacheRefreshPlanState
    * @param boolean $CachingNotEnabledOnItem
    * @access public
    */
-  public function __construct($MissingParameterValue, $InvalidParameterValue, $UnknownItemParameter, $CachingNotEnabledOnItem)
+  public function __construct($MissingParameterValue = null, $InvalidParameterValue = null, $UnknownItemParameter = null, $CachingNotEnabledOnItem = null)
   {
     $this->MissingParameterValue = $MissingParameterValue;
     $this->InvalidParameterValue = $InvalidParameterValue;

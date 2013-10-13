@@ -49,7 +49,7 @@ class CreateReport
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Report, $Parent, $Overwrite, $Definition, $Properties)
+  public function __construct($Report = null, $Parent = null, $Overwrite = null, $Definition = null, $Properties = null)
   {
     $this->Report = $Report;
     $this->Parent = $Parent;

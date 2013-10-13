@@ -25,7 +25,7 @@ class ParameterFieldReference
    * @param string $FieldAlias
    * @access public
    */
-  public function __construct($ParameterName, $FieldAlias)
+  public function __construct($ParameterName = null, $FieldAlias = null)
   {
     $this->ParameterName = $ParameterName;
     $this->FieldAlias = $FieldAlias;

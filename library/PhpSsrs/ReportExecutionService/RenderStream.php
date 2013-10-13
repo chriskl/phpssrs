@@ -33,7 +33,7 @@ class RenderStream
    * @param string $DeviceInfo
    * @access public
    */
-  public function __construct($Format, $StreamID, $DeviceInfo)
+  public function __construct($Format = null, $StreamID = null, $DeviceInfo = null)
   {
     $this->Format = $Format;
     $this->StreamID = $StreamID;

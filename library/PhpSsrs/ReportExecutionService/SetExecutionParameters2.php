@@ -25,7 +25,7 @@ class SetExecutionParameters2
    * @param string $ParameterLanguage
    * @access public
    */
-  public function __construct($Parameters, $ParameterLanguage)
+  public function __construct($Parameters = null, $ParameterLanguage = null)
   {
     $this->Parameters = $Parameters;
     $this->ParameterLanguage = $ParameterLanguage;

@@ -17,7 +17,7 @@ class FindItemsResponse
    * @param CatalogItem[] $Items
    * @access public
    */
-  public function __construct($Items)
+  public function __construct($Items = null)
   {
     $this->Items = $Items;
   }

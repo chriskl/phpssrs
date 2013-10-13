@@ -17,7 +17,7 @@ class GetSchedulePropertiesResponse
    * @param Schedule $Schedule
    * @access public
    */
-  public function __construct($Schedule)
+  public function __construct($Schedule = null)
   {
     $this->Schedule = $Schedule;
   }

@@ -25,7 +25,7 @@ class CreateFolder
    * @param string $Parent
    * @access public
    */
-  public function __construct($Folder, $Parent)
+  public function __construct($Folder = null, $Parent = null)
   {
     $this->Folder = $Folder;
     $this->Parent = $Parent;

@@ -25,7 +25,7 @@ class ExtensionSettings
    * @param Choice1[] $ParameterValues
    * @access public
    */
-  public function __construct($Extension, $ParameterValues)
+  public function __construct($Extension = null, $ParameterValues = null)
   {
     $this->Extension = $Extension;
     $this->ParameterValues = $ParameterValues;

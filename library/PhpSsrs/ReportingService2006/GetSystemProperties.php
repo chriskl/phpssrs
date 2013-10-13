@@ -17,7 +17,7 @@ class GetSystemProperties
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Properties)
+  public function __construct($Properties = null)
   {
     $this->Properties = $Properties;
   }

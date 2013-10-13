@@ -25,7 +25,7 @@ class SetReportLink
    * @param string $Link
    * @access public
    */
-  public function __construct($Report, $Link)
+  public function __construct($Report = null, $Link = null)
   {
     $this->Report = $Report;
     $this->Link = $Link;

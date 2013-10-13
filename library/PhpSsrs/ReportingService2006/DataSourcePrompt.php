@@ -33,7 +33,7 @@ class DataSourcePrompt
    * @param string $Prompt
    * @access public
    */
-  public function __construct($Name, $DataSourceID, $Prompt)
+  public function __construct($Name = null, $DataSourceID = null, $Prompt = null)
   {
     $this->Name = $Name;
     $this->DataSourceID = $DataSourceID;

@@ -17,7 +17,7 @@ class GetReportServerConfigInfo
    * @param boolean $ScaleOut
    * @access public
    */
-  public function __construct($ScaleOut)
+  public function __construct($ScaleOut = null)
   {
     $this->ScaleOut = $ScaleOut;
   }

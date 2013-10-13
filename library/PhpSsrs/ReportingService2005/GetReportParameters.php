@@ -49,7 +49,7 @@ class GetReportParameters
    * @param DataSourceCredentials[] $Credentials
    * @access public
    */
-  public function __construct($Report, $HistoryID, $ForRendering, $Values, $Credentials)
+  public function __construct($Report = null, $HistoryID = null, $ForRendering = null, $Values = null, $Credentials = null)
   {
     $this->Report = $Report;
     $this->HistoryID = $HistoryID;

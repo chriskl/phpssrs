@@ -25,7 +25,7 @@ class DeleteReportHistorySnapshot
    * @param string $HistoryID
    * @access public
    */
-  public function __construct($Report, $HistoryID)
+  public function __construct($Report = null, $HistoryID = null)
   {
     $this->Report = $Report;
     $this->HistoryID = $HistoryID;

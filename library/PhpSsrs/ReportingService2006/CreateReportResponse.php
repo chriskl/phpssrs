@@ -25,7 +25,7 @@ class CreateReportResponse
    * @param Warning[] $Warnings
    * @access public
    */
-  public function __construct($ItemInfo, $Warnings)
+  public function __construct($ItemInfo = null, $Warnings = null)
   {
     $this->ItemInfo = $ItemInfo;
     $this->Warnings = $Warnings;

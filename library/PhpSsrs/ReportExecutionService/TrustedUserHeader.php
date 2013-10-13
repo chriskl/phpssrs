@@ -25,7 +25,7 @@ class TrustedUserHeader
    * @param base64Binary $UserToken
    * @access public
    */
-  public function __construct($UserName, $UserToken)
+  public function __construct($UserName = null, $UserToken = null)
   {
     $this->UserName = $UserName;
     $this->UserToken = $UserToken;

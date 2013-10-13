@@ -17,7 +17,7 @@ class NavigateDocumentMapResponse
    * @param int $PageNumber
    * @access public
    */
-  public function __construct($PageNumber)
+  public function __construct($PageNumber = null)
   {
     $this->PageNumber = $PageNumber;
   }

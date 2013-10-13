@@ -25,7 +25,7 @@ class SetModelDefinition
    * @param base64Binary $Definition
    * @access public
    */
-  public function __construct($Model, $Definition)
+  public function __construct($Model = null, $Definition = null)
   {
     $this->Model = $Model;
     $this->Definition = $Definition;

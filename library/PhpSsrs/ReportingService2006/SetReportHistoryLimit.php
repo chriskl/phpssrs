@@ -33,7 +33,7 @@ class SetReportHistoryLimit
    * @param int $HistoryLimit
    * @access public
    */
-  public function __construct($Report, $UseSystem, $HistoryLimit)
+  public function __construct($Report = null, $UseSystem = null, $HistoryLimit = null)
   {
     $this->Report = $Report;
     $this->UseSystem = $UseSystem;

@@ -17,7 +17,7 @@ class GetPropertiesResponse
    * @param Property[] $Values
    * @access public
    */
-  public function __construct($Values)
+  public function __construct($Values = null)
   {
     $this->Values = $Values;
   }

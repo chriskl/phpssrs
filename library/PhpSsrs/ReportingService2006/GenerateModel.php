@@ -41,7 +41,7 @@ class GenerateModel
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($DataSource, $Model, $Parent, $Properties)
+  public function __construct($DataSource = null, $Model = null, $Parent = null, $Properties = null)
   {
     $this->DataSource = $DataSource;
     $this->Model = $Model;

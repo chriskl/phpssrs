@@ -41,7 +41,7 @@ class CreateLinkedItem
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($ItemPath, $Parent, $Link, $Properties)
+  public function __construct($ItemPath = null, $Parent = null, $Link = null, $Properties = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Parent = $Parent;

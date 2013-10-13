@@ -17,7 +17,7 @@ class ListSubscriptions
    * @param string $ItemPathOrSiteURL
    * @access public
    */
-  public function __construct($ItemPathOrSiteURL)
+  public function __construct($ItemPathOrSiteURL = null)
   {
     $this->ItemPathOrSiteURL = $ItemPathOrSiteURL;
   }

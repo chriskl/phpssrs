@@ -129,7 +129,7 @@ class ItemParameter
    * @param string $ErrorMessage
    * @access public
    */
-  public function __construct($Name, $ParameterTypeName, $Nullable, $AllowBlank, $MultiValue, $QueryParameter, $Prompt, $PromptUser, $Dependencies, $ValidValuesQueryBased, $ValidValues, $DefaultValuesQueryBased, $DefaultValues, $ParameterStateName, $ErrorMessage)
+  public function __construct($Name = null, $ParameterTypeName = null, $Nullable = null, $AllowBlank = null, $MultiValue = null, $QueryParameter = null, $Prompt = null, $PromptUser = null, $Dependencies = null, $ValidValuesQueryBased = null, $ValidValues = null, $DefaultValuesQueryBased = null, $DefaultValues = null, $ParameterStateName = null, $ErrorMessage = null)
   {
     $this->Name = $Name;
     $this->ParameterTypeName = $ParameterTypeName;

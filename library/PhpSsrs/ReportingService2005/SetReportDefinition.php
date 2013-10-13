@@ -25,7 +25,7 @@ class SetReportDefinition
    * @param base64Binary $Definition
    * @access public
    */
-  public function __construct($Report, $Definition)
+  public function __construct($Report = null, $Definition = null)
   {
     $this->Report = $Report;
     $this->Definition = $Definition;

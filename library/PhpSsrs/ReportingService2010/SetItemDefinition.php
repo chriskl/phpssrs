@@ -33,7 +33,7 @@ class SetItemDefinition
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($ItemPath, $Definition, $Properties)
+  public function __construct($ItemPath = null, $Definition = null, $Properties = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Definition = $Definition;

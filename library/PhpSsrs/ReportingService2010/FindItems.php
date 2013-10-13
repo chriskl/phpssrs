@@ -41,7 +41,7 @@ class FindItems
    * @param SearchCondition[] $SearchConditions
    * @access public
    */
-  public function __construct($Folder, $BooleanOperator, $SearchOptions, $SearchConditions)
+  public function __construct($Folder = null, $BooleanOperator = null, $SearchOptions = null, $SearchConditions = null)
   {
     $this->Folder = $Folder;
     $this->BooleanOperator = $BooleanOperator;

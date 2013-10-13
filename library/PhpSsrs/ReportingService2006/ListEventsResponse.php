@@ -17,7 +17,7 @@ class ListEventsResponse
    * @param Event[] $Events
    * @access public
    */
-  public function __construct($Events)
+  public function __construct($Events = null)
   {
     $this->Events = $Events;
   }

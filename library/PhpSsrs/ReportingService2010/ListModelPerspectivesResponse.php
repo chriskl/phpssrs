@@ -17,7 +17,7 @@ class ListModelPerspectivesResponse
    * @param ModelCatalogItem[] $ModelCatalogItems
    * @access public
    */
-  public function __construct($ModelCatalogItems)
+  public function __construct($ModelCatalogItems = null)
   {
     $this->ModelCatalogItems = $ModelCatalogItems;
   }

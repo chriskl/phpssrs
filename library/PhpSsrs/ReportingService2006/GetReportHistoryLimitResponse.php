@@ -33,7 +33,7 @@ class GetReportHistoryLimitResponse
    * @param int $SystemLimit
    * @access public
    */
-  public function __construct($HistoryLimit, $IsSystem, $SystemLimit)
+  public function __construct($HistoryLimit = null, $IsSystem = null, $SystemLimit = null)
   {
     $this->HistoryLimit = $HistoryLimit;
     $this->IsSystem = $IsSystem;

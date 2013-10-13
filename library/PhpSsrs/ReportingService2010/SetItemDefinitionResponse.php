@@ -17,7 +17,7 @@ class SetItemDefinitionResponse
    * @param Warning[] $Warnings
    * @access public
    */
-  public function __construct($Warnings)
+  public function __construct($Warnings = null)
   {
     $this->Warnings = $Warnings;
   }

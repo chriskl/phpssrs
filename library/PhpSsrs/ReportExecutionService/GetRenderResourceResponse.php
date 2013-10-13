@@ -25,7 +25,7 @@ class GetRenderResourceResponse
    * @param string $MimeType
    * @access public
    */
-  public function __construct($Result, $MimeType)
+  public function __construct($Result = null, $MimeType = null)
   {
     $this->Result = $Result;
     $this->MimeType = $MimeType;

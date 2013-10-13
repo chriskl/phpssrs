@@ -41,7 +41,7 @@ class DataRetrievalPlan
    * @param DataSetDefinition $DataSet
    * @access public
    */
-  public function __construct($DataSourceDefinition, $DataSourceReference, $InvalidDataSourceReference, $DataSet)
+  public function __construct($DataSourceDefinition = null, $DataSourceReference = null, $InvalidDataSourceReference = null, $DataSet = null)
   {
     $this->DataSourceDefinition = $DataSourceDefinition;
     $this->DataSourceReference = $DataSourceReference;

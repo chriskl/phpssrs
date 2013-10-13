@@ -17,7 +17,7 @@ class CreateDataDrivenSubscriptionResponse
    * @param string $DataDrivenSubscriptionID
    * @access public
    */
-  public function __construct($DataDrivenSubscriptionID)
+  public function __construct($DataDrivenSubscriptionID = null)
   {
     $this->DataDrivenSubscriptionID = $DataDrivenSubscriptionID;
   }

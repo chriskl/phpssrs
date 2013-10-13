@@ -17,7 +17,7 @@ class GetRoleProperties
    * @param string $Name
    * @access public
    */
-  public function __construct($Name)
+  public function __construct($Name = null)
   {
     $this->Name = $Name;
   }

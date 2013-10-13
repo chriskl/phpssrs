@@ -33,7 +33,7 @@ class QueryDefinition
    * @param int $Timeout
    * @access public
    */
-  public function __construct($CommandType, $CommandText, $Timeout)
+  public function __construct($CommandType = null, $CommandText = null, $Timeout = null)
   {
     $this->CommandType = $CommandType;
     $this->CommandText = $CommandText;

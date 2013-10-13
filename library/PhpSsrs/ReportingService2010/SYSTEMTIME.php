@@ -73,7 +73,7 @@ class SYSTEMTIME
    * @param int $milliseconds
    * @access public
    */
-  public function __construct($year, $month, $dayOfWeek, $day, $hour, $minute, $second, $milliseconds)
+  public function __construct($year = null, $month = null, $dayOfWeek = null, $day = null, $hour = null, $minute = null, $second = null, $milliseconds = null)
   {
     $this->year = $year;
     $this->month = $month;

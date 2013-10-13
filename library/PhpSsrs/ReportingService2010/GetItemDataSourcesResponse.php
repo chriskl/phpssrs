@@ -17,7 +17,7 @@ class GetItemDataSourcesResponse
    * @param DataSource[] $DataSources
    * @access public
    */
-  public function __construct($DataSources)
+  public function __construct($DataSources = null)
   {
     $this->DataSources = $DataSources;
   }

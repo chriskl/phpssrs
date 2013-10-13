@@ -57,7 +57,7 @@ class SetItemHistoryOptions
    * @param NoSchedule $NoSchedule
    * @access public
    */
-  public function __construct($ItemPath, $EnableManualSnapshotCreation, $KeepExecutionSnapshots, $ScheduleReference, $ScheduleDefinition, $NoSchedule)
+  public function __construct($ItemPath = null, $EnableManualSnapshotCreation = null, $KeepExecutionSnapshots = null, $ScheduleReference = null, $ScheduleDefinition = null, $NoSchedule = null)
   {
     $this->ItemPath = $ItemPath;
     $this->EnableManualSnapshotCreation = $EnableManualSnapshotCreation;

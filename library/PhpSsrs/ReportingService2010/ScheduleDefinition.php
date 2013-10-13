@@ -65,7 +65,7 @@ class ScheduleDefinition
    * @param MonthlyDOWRecurrence $MonthlyDOWRecurrence
    * @access public
    */
-  public function __construct($StartDateTime, $EndDate, $MonthlyRecurrence, $MinuteRecurrence, $DailyRecurrence, $WeeklyRecurrence, $MonthlyDOWRecurrence)
+  public function __construct($StartDateTime = null, $EndDate = null, $MonthlyRecurrence = null, $MinuteRecurrence = null, $DailyRecurrence = null, $WeeklyRecurrence = null, $MonthlyDOWRecurrence = null)
   {
     $this->StartDateTime = $StartDateTime;
     $this->EndDate = $EndDate;

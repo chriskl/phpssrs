@@ -49,7 +49,7 @@ class GetItemParameters
    * @param DataSourceCredentials[] $Credentials
    * @access public
    */
-  public function __construct($ItemPath, $HistoryID, $ForRendering, $Values, $Credentials)
+  public function __construct($ItemPath = null, $HistoryID = null, $ForRendering = null, $Values = null, $Credentials = null)
   {
     $this->ItemPath = $ItemPath;
     $this->HistoryID = $HistoryID;

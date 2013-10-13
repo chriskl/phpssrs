@@ -25,7 +25,7 @@ class GetRenderResource
    * @param string $DeviceInfo
    * @access public
    */
-  public function __construct($Format, $DeviceInfo)
+  public function __construct($Format = null, $DeviceInfo = null)
   {
     $this->Format = $Format;
     $this->DeviceInfo = $DeviceInfo;

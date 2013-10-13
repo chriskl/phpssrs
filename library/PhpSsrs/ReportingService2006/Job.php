@@ -89,7 +89,7 @@ class Job
    * @param JobStatusEnum $Status
    * @access public
    */
-  public function __construct($JobID, $Name, $Path, $Description, $Machine, $User, $StartDateTime, $Action, $Type, $Status)
+  public function __construct($JobID = null, $Name = null, $Path = null, $Description = null, $Machine = null, $User = null, $StartDateTime = null, $Action = null, $Type = null, $Status = null)
   {
     $this->JobID = $JobID;
     $this->Name = $Name;

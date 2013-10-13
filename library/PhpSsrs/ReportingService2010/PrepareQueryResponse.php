@@ -33,7 +33,7 @@ class PrepareQueryResponse
    * @param String1[] $ParameterNames
    * @access public
    */
-  public function __construct($DataSettings, $Changed, $ParameterNames)
+  public function __construct($DataSettings = null, $Changed = null, $ParameterNames = null)
   {
     $this->DataSettings = $DataSettings;
     $this->Changed = $Changed;

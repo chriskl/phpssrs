@@ -49,7 +49,7 @@ class TimeZoneInformation
    * @param SYSTEMTIME $DaylightDate
    * @access public
    */
-  public function __construct($Bias, $StandardBias, $StandardDate, $DaylightBias, $DaylightDate)
+  public function __construct($Bias = null, $StandardBias = null, $StandardDate = null, $DaylightBias = null, $DaylightDate = null)
   {
     $this->Bias = $Bias;
     $this->StandardBias = $StandardBias;

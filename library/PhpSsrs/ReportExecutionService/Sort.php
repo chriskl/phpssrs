@@ -33,7 +33,7 @@ class Sort
    * @param boolean $Clear
    * @access public
    */
-  public function __construct($SortItem, $Direction, $Clear)
+  public function __construct($SortItem = null, $Direction = null, $Clear = null)
   {
     $this->SortItem = $SortItem;
     $this->Direction = $Direction;

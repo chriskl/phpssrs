@@ -25,7 +25,7 @@ class WeeklyRecurrence
    * @param DaysOfWeekSelector $DaysOfWeek
    * @access public
    */
-  public function __construct($WeeksInterval, $DaysOfWeek)
+  public function __construct($WeeksInterval = null, $DaysOfWeek = null)
   {
     $this->WeeksInterval = $WeeksInterval;
     $this->DaysOfWeek = $DaysOfWeek;

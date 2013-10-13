@@ -33,7 +33,7 @@ class MonthlyDOWRecurrence
    * @param MonthsOfYearSelector $MonthsOfYear
    * @access public
    */
-  public function __construct($WhichWeek, $DaysOfWeek, $MonthsOfYear)
+  public function __construct($WhichWeek = null, $DaysOfWeek = null, $MonthsOfYear = null)
   {
     $this->WhichWeek = $WhichWeek;
     $this->DaysOfWeek = $DaysOfWeek;

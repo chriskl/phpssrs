@@ -105,7 +105,7 @@ class MonthsOfYearSelector
    * @param boolean $December
    * @access public
    */
-  public function __construct($January, $February, $March, $April, $May, $June, $July, $August, $September, $October, $November, $December)
+  public function __construct($January = null, $February = null, $March = null, $April = null, $May = null, $June = null, $July = null, $August = null, $September = null, $October = null, $November = null, $December = null)
   {
     $this->January = $January;
     $this->February = $February;

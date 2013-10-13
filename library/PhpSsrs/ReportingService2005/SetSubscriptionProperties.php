@@ -57,7 +57,7 @@ class SetSubscriptionProperties
    * @param ParameterValue[] $Parameters
    * @access public
    */
-  public function __construct($SubscriptionID, $ExtensionSettings, $Description, $EventType, $MatchData, $Parameters)
+  public function __construct($SubscriptionID = null, $ExtensionSettings = null, $Description = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->SubscriptionID = $SubscriptionID;
     $this->ExtensionSettings = $ExtensionSettings;

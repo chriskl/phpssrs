@@ -33,7 +33,7 @@ class ValidateExtensionSettings
    * @param string $SiteUrl
    * @access public
    */
-  public function __construct($Extension, $ParameterValues, $SiteUrl)
+  public function __construct($Extension = null, $ParameterValues = null, $SiteUrl = null)
   {
     $this->Extension = $Extension;
     $this->ParameterValues = $ParameterValues;

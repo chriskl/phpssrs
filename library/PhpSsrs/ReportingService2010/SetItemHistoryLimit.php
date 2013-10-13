@@ -33,7 +33,7 @@ class SetItemHistoryLimit
    * @param int $HistoryLimit
    * @access public
    */
-  public function __construct($ItemPath, $UseSystem, $HistoryLimit)
+  public function __construct($ItemPath = null, $UseSystem = null, $HistoryLimit = null)
   {
     $this->ItemPath = $ItemPath;
     $this->UseSystem = $UseSystem;

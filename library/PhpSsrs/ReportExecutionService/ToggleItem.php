@@ -17,7 +17,7 @@ class ToggleItem
    * @param string $ToggleID
    * @access public
    */
-  public function __construct($ToggleID)
+  public function __construct($ToggleID = null)
   {
     $this->ToggleID = $ToggleID;
   }

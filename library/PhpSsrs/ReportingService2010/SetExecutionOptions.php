@@ -49,7 +49,7 @@ class SetExecutionOptions
    * @param ScheduleDefinition $ScheduleDefinition
    * @access public
    */
-  public function __construct($ItemPath, $ExecutionSetting, $NoSchedule, $ScheduleReference, $ScheduleDefinition)
+  public function __construct($ItemPath = null, $ExecutionSetting = null, $NoSchedule = null, $ScheduleReference = null, $ScheduleDefinition = null)
   {
     $this->ItemPath = $ItemPath;
     $this->ExecutionSetting = $ExecutionSetting;

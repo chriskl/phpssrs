@@ -17,7 +17,7 @@ class ItemNamespaceHeader
    * @param ItemNamespaceEnum $ItemNamespace
    * @access public
    */
-  public function __construct($ItemNamespace)
+  public function __construct($ItemNamespace = null)
   {
     $this->ItemNamespace = $ItemNamespace;
   }

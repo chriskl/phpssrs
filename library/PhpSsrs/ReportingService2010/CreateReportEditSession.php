@@ -33,7 +33,7 @@ class CreateReportEditSession
    * @param base64Binary $Definition
    * @access public
    */
-  public function __construct($Report, $Parent, $Definition)
+  public function __construct($Report = null, $Parent = null, $Definition = null)
   {
     $this->Report = $Report;
     $this->Parent = $Parent;

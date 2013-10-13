@@ -49,7 +49,7 @@ class SetCacheRefreshPlanProperties
    * @param ParameterValue[] $Parameters
    * @access public
    */
-  public function __construct($CacheRefreshPlanID, $Description, $EventType, $MatchData, $Parameters)
+  public function __construct($CacheRefreshPlanID = null, $Description = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->CacheRefreshPlanID = $CacheRefreshPlanID;
     $this->Description = $Description;

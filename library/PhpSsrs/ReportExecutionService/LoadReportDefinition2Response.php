@@ -25,7 +25,7 @@ class LoadReportDefinition2Response
    * @param Warning[] $warnings
    * @access public
    */
-  public function __construct($executionInfo, $warnings)
+  public function __construct($executionInfo = null, $warnings = null)
   {
     $this->executionInfo = $executionInfo;
     $this->warnings = $warnings;

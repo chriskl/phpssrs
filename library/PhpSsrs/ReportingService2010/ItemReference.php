@@ -25,7 +25,7 @@ class ItemReference
    * @param string $Reference
    * @access public
    */
-  public function __construct($Name, $Reference)
+  public function __construct($Name = null, $Reference = null)
   {
     $this->Name = $Name;
     $this->Reference = $Reference;

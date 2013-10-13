@@ -17,7 +17,7 @@ class GetSystemPoliciesResponse
    * @param Policy[] $Policies
    * @access public
    */
-  public function __construct($Policies)
+  public function __construct($Policies = null)
   {
     $this->Policies = $Policies;
   }

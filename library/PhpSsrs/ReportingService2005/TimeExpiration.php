@@ -17,7 +17,7 @@ class TimeExpiration
    * @param int $Minutes
    * @access public
    */
-  public function __construct($Minutes)
+  public function __construct($Minutes = null)
   {
     $this->Minutes = $Minutes;
   }

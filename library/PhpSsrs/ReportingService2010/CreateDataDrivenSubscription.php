@@ -65,7 +65,7 @@ class CreateDataDrivenSubscription
    * @param ParameterValueOrFieldReference[] $Parameters
    * @access public
    */
-  public function __construct($ItemPath, $ExtensionSettings, $DataRetrievalPlan, $Description, $EventType, $MatchData, $Parameters)
+  public function __construct($ItemPath = null, $ExtensionSettings = null, $DataRetrievalPlan = null, $Description = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->ItemPath = $ItemPath;
     $this->ExtensionSettings = $ExtensionSettings;

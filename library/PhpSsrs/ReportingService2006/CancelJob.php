@@ -17,7 +17,7 @@ class CancelJob
    * @param string $JobID
    * @access public
    */
-  public function __construct($JobID)
+  public function __construct($JobID = null)
   {
     $this->JobID = $JobID;
   }

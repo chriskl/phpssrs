@@ -33,7 +33,7 @@ class LogonUser
    * @param string $authority
    * @access public
    */
-  public function __construct($userName, $password, $authority)
+  public function __construct($userName = null, $password = null, $authority = null)
   {
     $this->userName = $userName;
     $this->password = $password;

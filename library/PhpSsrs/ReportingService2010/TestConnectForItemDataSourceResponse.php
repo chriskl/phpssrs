@@ -25,7 +25,7 @@ class TestConnectForItemDataSourceResponse
    * @param string $ConnectError
    * @access public
    */
-  public function __construct($TestConnectForItemDataSourceResult, $ConnectError)
+  public function __construct($TestConnectForItemDataSourceResult = null, $ConnectError = null)
   {
     $this->TestConnectForItemDataSourceResult = $TestConnectForItemDataSourceResult;
     $this->ConnectError = $ConnectError;

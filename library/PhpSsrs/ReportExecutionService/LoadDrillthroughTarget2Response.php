@@ -17,7 +17,7 @@ class LoadDrillthroughTarget2Response
    * @param ExecutionInfo2 $ExecutionInfo
    * @access public
    */
-  public function __construct($ExecutionInfo)
+  public function __construct($ExecutionInfo = null)
   {
     $this->ExecutionInfo = $ExecutionInfo;
   }

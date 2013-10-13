@@ -33,7 +33,7 @@ class ModelCatalogItem
    * @param ModelPerspective[] $Perspectives
    * @access public
    */
-  public function __construct($Model, $Description, $Perspectives)
+  public function __construct($Model = null, $Description = null, $Perspectives = null)
   {
     $this->Model = $Model;
     $this->Description = $Description;

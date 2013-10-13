@@ -25,7 +25,7 @@ class GetProperties
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($ItemPath, $Properties)
+  public function __construct($ItemPath = null, $Properties = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Properties = $Properties;

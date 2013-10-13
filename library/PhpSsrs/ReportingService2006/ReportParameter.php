@@ -129,7 +129,7 @@ class ReportParameter
    * @param string $ErrorMessage
    * @access public
    */
-  public function __construct($Name, $Type, $Nullable, $AllowBlank, $MultiValue, $QueryParameter, $Prompt, $PromptUser, $Dependencies, $ValidValuesQueryBased, $ValidValues, $DefaultValuesQueryBased, $DefaultValues, $State, $ErrorMessage)
+  public function __construct($Name = null, $Type = null, $Nullable = null, $AllowBlank = null, $MultiValue = null, $QueryParameter = null, $Prompt = null, $PromptUser = null, $Dependencies = null, $ValidValuesQueryBased = null, $ValidValues = null, $DefaultValuesQueryBased = null, $DefaultValues = null, $State = null, $ErrorMessage = null)
   {
     $this->Name = $Name;
     $this->Type = $Type;

@@ -41,7 +41,7 @@ class ReportMargins
    * @param float $Right
    * @access public
    */
-  public function __construct($Top, $Bottom, $Left, $Right)
+  public function __construct($Top = null, $Bottom = null, $Left = null, $Right = null)
   {
     $this->Top = $Top;
     $this->Bottom = $Bottom;

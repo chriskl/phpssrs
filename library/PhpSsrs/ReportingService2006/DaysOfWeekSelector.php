@@ -65,7 +65,7 @@ class DaysOfWeekSelector
    * @param boolean $Saturday
    * @access public
    */
-  public function __construct($Sunday, $Monday, $Tuesday, $Wednesday, $Thursday, $Friday, $Saturday)
+  public function __construct($Sunday = null, $Monday = null, $Tuesday = null, $Wednesday = null, $Thursday = null, $Friday = null, $Saturday = null)
   {
     $this->Sunday = $Sunday;
     $this->Monday = $Monday;

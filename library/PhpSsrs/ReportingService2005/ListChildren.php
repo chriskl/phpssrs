@@ -25,7 +25,7 @@ class ListChildren
    * @param boolean $Recursive
    * @access public
    */
-  public function __construct($Item, $Recursive)
+  public function __construct($Item = null, $Recursive = null)
   {
     $this->Item = $Item;
     $this->Recursive = $Recursive;

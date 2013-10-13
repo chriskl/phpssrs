@@ -17,7 +17,7 @@ class ListModelDrillthroughReportsResponse
    * @param ModelDrillthroughReport[] $Reports
    * @access public
    */
-  public function __construct($Reports)
+  public function __construct($Reports = null)
   {
     $this->Reports = $Reports;
   }

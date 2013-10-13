@@ -17,7 +17,7 @@ class ListJobActionsResponse
    * @param String1[] $ListJobActionsResult
    * @access public
    */
-  public function __construct($ListJobActionsResult)
+  public function __construct($ListJobActionsResult = null)
   {
     $this->ListJobActionsResult = $ListJobActionsResult;
   }

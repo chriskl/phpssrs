@@ -17,7 +17,7 @@ class CancelJobResponse
    * @param boolean $CancelJobResult
    * @access public
    */
-  public function __construct($CancelJobResult)
+  public function __construct($CancelJobResult = null)
   {
     $this->CancelJobResult = $CancelJobResult;
   }

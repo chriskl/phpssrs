@@ -17,7 +17,7 @@ class GetReportLinkResponse
    * @param string $Link
    * @access public
    */
-  public function __construct($Link)
+  public function __construct($Link = null)
   {
     $this->Link = $Link;
   }

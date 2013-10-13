@@ -17,7 +17,7 @@ class ListParameterTypesResponse
    * @param String1[] $ListParameterTypesResult
    * @access public
    */
-  public function __construct($ListParameterTypesResult)
+  public function __construct($ListParameterTypesResult = null)
   {
     $this->ListParameterTypesResult = $ListParameterTypesResult;
   }

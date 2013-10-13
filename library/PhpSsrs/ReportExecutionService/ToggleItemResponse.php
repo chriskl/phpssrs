@@ -17,7 +17,7 @@ class ToggleItemResponse
    * @param boolean $Found
    * @access public
    */
-  public function __construct($Found)
+  public function __construct($Found = null)
   {
     $this->Found = $Found;
   }

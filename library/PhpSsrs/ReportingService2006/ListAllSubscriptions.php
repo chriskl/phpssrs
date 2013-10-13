@@ -17,7 +17,7 @@ class ListAllSubscriptions
    * @param string $Site
    * @access public
    */
-  public function __construct($Site)
+  public function __construct($Site = null)
   {
     $this->Site = $Site;
   }

@@ -17,7 +17,7 @@ class DeleteItem
    * @param string $Item
    * @access public
    */
-  public function __construct($Item)
+  public function __construct($Item = null)
   {
     $this->Item = $Item;
   }

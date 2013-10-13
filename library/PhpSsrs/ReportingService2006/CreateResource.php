@@ -57,7 +57,7 @@ class CreateResource
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Resource, $Parent, $Overwrite, $Contents, $MimeType, $Properties)
+  public function __construct($Resource = null, $Parent = null, $Overwrite = null, $Contents = null, $MimeType = null, $Properties = null)
   {
     $this->Resource = $Resource;
     $this->Parent = $Parent;

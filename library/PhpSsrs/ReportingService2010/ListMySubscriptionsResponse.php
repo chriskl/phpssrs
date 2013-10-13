@@ -17,7 +17,7 @@ class ListMySubscriptionsResponse
    * @param Subscription[] $SubscriptionItems
    * @access public
    */
-  public function __construct($SubscriptionItems)
+  public function __construct($SubscriptionItems = null)
   {
     $this->SubscriptionItems = $SubscriptionItems;
   }

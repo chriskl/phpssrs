@@ -17,7 +17,7 @@ class ListParentsResponse
    * @param CatalogItem[] $ListParentsResult
    * @access public
    */
-  public function __construct($ListParentsResult)
+  public function __construct($ListParentsResult = null)
   {
     $this->ListParentsResult = $ListParentsResult;
   }

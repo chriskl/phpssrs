@@ -25,7 +25,7 @@ class GetRoleProperties
    * @param string $Site
    * @access public
    */
-  public function __construct($Name, $Site)
+  public function __construct($Name = null, $Site = null)
   {
     $this->Name = $Name;
     $this->Site = $Site;

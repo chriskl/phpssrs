@@ -17,7 +17,7 @@ class SearchCondition
    * @param ConditionEnum $Condition
    * @access public
    */
-  public function __construct($Condition)
+  public function __construct($Condition = null)
   {
     $this->Condition = $Condition;
   }

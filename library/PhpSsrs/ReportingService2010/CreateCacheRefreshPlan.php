@@ -49,7 +49,7 @@ class CreateCacheRefreshPlan
    * @param ParameterValue[] $Parameters
    * @access public
    */
-  public function __construct($ItemPath, $Description, $EventType, $MatchData, $Parameters)
+  public function __construct($ItemPath = null, $Description = null, $EventType = null, $MatchData = null, $Parameters = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Description = $Description;

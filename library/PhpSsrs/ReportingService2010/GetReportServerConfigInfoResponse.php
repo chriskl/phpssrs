@@ -17,7 +17,7 @@ class GetReportServerConfigInfoResponse
    * @param string $ServerConfigInfo
    * @access public
    */
-  public function __construct($ServerConfigInfo)
+  public function __construct($ServerConfigInfo = null)
   {
     $this->ServerConfigInfo = $ServerConfigInfo;
   }

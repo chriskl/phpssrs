@@ -49,7 +49,7 @@ class Warning
    * @param string $Message
    * @access public
    */
-  public function __construct($Code, $Severity, $ObjectName, $ObjectType, $Message)
+  public function __construct($Code = null, $Severity = null, $ObjectName = null, $ObjectType = null, $Message = null)
   {
     $this->Code = $Code;
     $this->Severity = $Severity;

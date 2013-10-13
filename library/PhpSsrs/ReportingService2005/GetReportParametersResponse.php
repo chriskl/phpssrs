@@ -17,7 +17,7 @@ class GetReportParametersResponse
    * @param ReportParameter[] $Parameters
    * @access public
    */
-  public function __construct($Parameters)
+  public function __construct($Parameters = null)
   {
     $this->Parameters = $Parameters;
   }

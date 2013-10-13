@@ -97,7 +97,7 @@ class DataSourceDefinition
    * @param boolean $Enabled
    * @access public
    */
-  public function __construct($Extension, $ConnectString, $UseOriginalConnectString, $OriginalConnectStringExpressionBased, $CredentialRetrieval, $WindowsCredentials, $ImpersonateUser, $Prompt, $UserName, $Password, $Enabled)
+  public function __construct($Extension = null, $ConnectString = null, $UseOriginalConnectString = null, $OriginalConnectStringExpressionBased = null, $CredentialRetrieval = null, $WindowsCredentials = null, $ImpersonateUser = null, $Prompt = null, $UserName = null, $Password = null, $Enabled = null)
   {
     $this->Extension = $Extension;
     $this->ConnectString = $ConnectString;

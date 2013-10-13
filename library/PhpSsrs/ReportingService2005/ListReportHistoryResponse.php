@@ -17,7 +17,7 @@ class ListReportHistoryResponse
    * @param ReportHistorySnapshot[] $ReportHistory
    * @access public
    */
-  public function __construct($ReportHistory)
+  public function __construct($ReportHistory = null)
   {
     $this->ReportHistory = $ReportHistory;
   }

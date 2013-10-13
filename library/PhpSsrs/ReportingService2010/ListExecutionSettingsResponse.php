@@ -17,7 +17,7 @@ class ListExecutionSettingsResponse
    * @param String1[] $ListExecutionSettingsResult
    * @access public
    */
-  public function __construct($ListExecutionSettingsResult)
+  public function __construct($ListExecutionSettingsResult = null)
   {
     $this->ListExecutionSettingsResult = $ListExecutionSettingsResult;
   }

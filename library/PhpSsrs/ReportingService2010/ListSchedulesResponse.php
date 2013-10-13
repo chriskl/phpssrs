@@ -17,7 +17,7 @@ class ListSchedulesResponse
    * @param Schedule[] $Schedules
    * @access public
    */
-  public function __construct($Schedules)
+  public function __construct($Schedules = null)
   {
     $this->Schedules = $Schedules;
   }

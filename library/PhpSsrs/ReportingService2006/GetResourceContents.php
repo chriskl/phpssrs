@@ -17,7 +17,7 @@ class GetResourceContents
    * @param string $Resource
    * @access public
    */
-  public function __construct($Resource)
+  public function __construct($Resource = null)
   {
     $this->Resource = $Resource;
   }

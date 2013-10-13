@@ -25,7 +25,7 @@ class CreateItemHistorySnapshotResponse
    * @param Warning[] $Warnings
    * @access public
    */
-  public function __construct($HistoryID, $Warnings)
+  public function __construct($HistoryID = null, $Warnings = null)
   {
     $this->HistoryID = $HistoryID;
     $this->Warnings = $Warnings;

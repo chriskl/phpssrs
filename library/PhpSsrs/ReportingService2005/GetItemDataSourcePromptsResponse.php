@@ -17,7 +17,7 @@ class GetItemDataSourcePromptsResponse
    * @param DataSourcePrompt[] $DataSourcePrompts
    * @access public
    */
-  public function __construct($DataSourcePrompts)
+  public function __construct($DataSourcePrompts = null)
   {
     $this->DataSourcePrompts = $DataSourcePrompts;
   }

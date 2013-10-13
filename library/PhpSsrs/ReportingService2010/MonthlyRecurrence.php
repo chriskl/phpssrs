@@ -25,7 +25,7 @@ class MonthlyRecurrence
    * @param MonthsOfYearSelector $MonthsOfYear
    * @access public
    */
-  public function __construct($Days, $MonthsOfYear)
+  public function __construct($Days = null, $MonthsOfYear = null)
   {
     $this->Days = $Days;
     $this->MonthsOfYear = $MonthsOfYear;

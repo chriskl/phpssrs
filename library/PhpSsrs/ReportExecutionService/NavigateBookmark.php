@@ -17,7 +17,7 @@ class NavigateBookmark
    * @param string $BookmarkID
    * @access public
    */
-  public function __construct($BookmarkID)
+  public function __construct($BookmarkID = null)
   {
     $this->BookmarkID = $BookmarkID;
   }

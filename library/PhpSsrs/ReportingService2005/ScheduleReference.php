@@ -25,7 +25,7 @@ class ScheduleReference
    * @param ScheduleDefinition $Definition
    * @access public
    */
-  public function __construct($ScheduleID, $Definition)
+  public function __construct($ScheduleID = null, $Definition = null)
   {
     $this->ScheduleID = $ScheduleID;
     $this->Definition = $Definition;

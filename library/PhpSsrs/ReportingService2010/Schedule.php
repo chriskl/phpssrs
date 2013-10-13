@@ -81,7 +81,7 @@ class Schedule
    * @param string $ScheduleStateName
    * @access public
    */
-  public function __construct($ScheduleID, $Name, $Definition, $Description, $Creator, $NextRunTime, $LastRunTime, $ReferencesPresent, $ScheduleStateName)
+  public function __construct($ScheduleID = null, $Name = null, $Definition = null, $Description = null, $Creator = null, $NextRunTime = null, $LastRunTime = null, $ReferencesPresent = null, $ScheduleStateName = null)
   {
     $this->ScheduleID = $ScheduleID;
     $this->Name = $Name;

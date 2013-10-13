@@ -81,7 +81,7 @@ class ExtensionParameter
    * @param ValidValue[] $ValidValues
    * @access public
    */
-  public function __construct($Name, $DisplayName, $Required, $ReadOnly, $Value, $Error, $Encrypted, $IsPassword, $ValidValues)
+  public function __construct($Name = null, $DisplayName = null, $Required = null, $ReadOnly = null, $Value = null, $Error = null, $Encrypted = null, $IsPassword = null, $ValidValues = null)
   {
     $this->Name = $Name;
     $this->DisplayName = $DisplayName;

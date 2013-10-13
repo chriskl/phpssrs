@@ -33,7 +33,7 @@ class ParameterValue
    * @param string $Label
    * @access public
    */
-  public function __construct($Name, $Value, $Label)
+  public function __construct($Name = null, $Value = null, $Label = null)
   {
     $this->Name = $Name;
     $this->Value = $Value;

@@ -17,7 +17,7 @@ class NavigateDocumentMap
    * @param string $DocMapID
    * @access public
    */
-  public function __construct($DocMapID)
+  public function __construct($DocMapID = null)
   {
     $this->DocMapID = $DocMapID;
   }

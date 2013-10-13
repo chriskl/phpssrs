@@ -33,7 +33,7 @@ class FindString
    * @param string $FindValue
    * @access public
    */
-  public function __construct($StartPage, $EndPage, $FindValue)
+  public function __construct($StartPage = null, $EndPage = null, $FindValue = null)
   {
     $this->StartPage = $StartPage;
     $this->EndPage = $EndPage;

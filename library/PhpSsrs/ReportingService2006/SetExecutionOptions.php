@@ -49,7 +49,7 @@ class SetExecutionOptions
    * @param ScheduleReference $ScheduleReference
    * @access public
    */
-  public function __construct($Report, $ExecutionSetting, $ScheduleDefinition, $NoSchedule, $ScheduleReference)
+  public function __construct($Report = null, $ExecutionSetting = null, $ScheduleDefinition = null, $NoSchedule = null, $ScheduleReference = null)
   {
     $this->Report = $Report;
     $this->ExecutionSetting = $ExecutionSetting;

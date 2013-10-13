@@ -41,7 +41,7 @@ class CreateModel
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Model, $Parent, $Definition, $Properties)
+  public function __construct($Model = null, $Parent = null, $Definition = null, $Properties = null)
   {
     $this->Model = $Model;
     $this->Parent = $Parent;

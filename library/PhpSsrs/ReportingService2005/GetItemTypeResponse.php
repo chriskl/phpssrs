@@ -17,7 +17,7 @@ class GetItemTypeResponse
    * @param ItemTypeEnum $Type
    * @access public
    */
-  public function __construct($Type)
+  public function __construct($Type = null)
   {
     $this->Type = $Type;
   }

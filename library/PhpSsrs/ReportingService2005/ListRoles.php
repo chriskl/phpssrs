@@ -17,7 +17,7 @@ class ListRoles
    * @param SecurityScopeEnum $SecurityScope
    * @access public
    */
-  public function __construct($SecurityScope)
+  public function __construct($SecurityScope = null)
   {
     $this->SecurityScope = $SecurityScope;
   }

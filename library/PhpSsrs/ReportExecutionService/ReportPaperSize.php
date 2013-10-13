@@ -25,7 +25,7 @@ class ReportPaperSize
    * @param float $Width
    * @access public
    */
-  public function __construct($Height, $Width)
+  public function __construct($Height = null, $Width = null)
   {
     $this->Height = $Height;
     $this->Width = $Width;

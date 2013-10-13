@@ -33,7 +33,7 @@ class ItemHistorySnapshot
    * @param int $Size
    * @access public
    */
-  public function __construct($HistoryID, $CreationDate, $Size)
+  public function __construct($HistoryID = null, $CreationDate = null, $Size = null)
   {
     $this->HistoryID = $HistoryID;
     $this->CreationDate = $CreationDate;

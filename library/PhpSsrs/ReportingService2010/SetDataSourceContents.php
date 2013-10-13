@@ -25,7 +25,7 @@ class SetDataSourceContents
    * @param DataSourceDefinition $Definition
    * @access public
    */
-  public function __construct($DataSource, $Definition)
+  public function __construct($DataSource = null, $Definition = null)
   {
     $this->DataSource = $DataSource;
     $this->Definition = $Definition;

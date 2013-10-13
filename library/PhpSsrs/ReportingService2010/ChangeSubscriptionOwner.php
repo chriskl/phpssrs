@@ -25,7 +25,7 @@ class ChangeSubscriptionOwner
    * @param string $NewOwner
    * @access public
    */
-  public function __construct($SubscriptionID, $NewOwner)
+  public function __construct($SubscriptionID = null, $NewOwner = null)
   {
     $this->SubscriptionID = $SubscriptionID;
     $this->NewOwner = $NewOwner;

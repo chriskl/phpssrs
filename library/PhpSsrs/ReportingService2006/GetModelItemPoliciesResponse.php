@@ -25,7 +25,7 @@ class GetModelItemPoliciesResponse
    * @param boolean $InheritParent
    * @access public
    */
-  public function __construct($Policies, $InheritParent)
+  public function __construct($Policies = null, $InheritParent = null)
   {
     $this->Policies = $Policies;
     $this->InheritParent = $InheritParent;

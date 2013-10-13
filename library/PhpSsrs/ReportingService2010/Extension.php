@@ -49,7 +49,7 @@ class Extension
    * @param boolean $IsModelGenerationSupported
    * @access public
    */
-  public function __construct($ExtensionTypeName, $Name, $LocalizedName, $Visible, $IsModelGenerationSupported)
+  public function __construct($ExtensionTypeName = null, $Name = null, $LocalizedName = null, $Visible = null, $IsModelGenerationSupported = null)
   {
     $this->ExtensionTypeName = $ExtensionTypeName;
     $this->Name = $Name;

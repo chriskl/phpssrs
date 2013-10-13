@@ -33,7 +33,7 @@ class ItemReferenceData
    * @param string $ReferenceType
    * @access public
    */
-  public function __construct($Name, $Reference, $ReferenceType)
+  public function __construct($Name = null, $Reference = null, $ReferenceType = null)
   {
     $this->Name = $Name;
     $this->Reference = $Reference;

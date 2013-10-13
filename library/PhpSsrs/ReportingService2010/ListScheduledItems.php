@@ -17,7 +17,7 @@ class ListScheduledItems
    * @param string $ScheduleID
    * @access public
    */
-  public function __construct($ScheduleID)
+  public function __construct($ScheduleID = null)
   {
     $this->ScheduleID = $ScheduleID;
   }

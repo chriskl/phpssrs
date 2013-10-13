@@ -17,7 +17,7 @@ class BatchHeader
    * @param string $BatchID
    * @access public
    */
-  public function __construct($BatchID)
+  public function __construct($BatchID = null)
   {
     $this->BatchID = $BatchID;
   }

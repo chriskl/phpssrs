@@ -17,7 +17,7 @@ class ListDependentItemsResponse
    * @param CatalogItem[] $CatalogItems
    * @access public
    */
-  public function __construct($CatalogItems)
+  public function __construct($CatalogItems = null)
   {
     $this->CatalogItems = $CatalogItems;
   }

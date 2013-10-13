@@ -33,7 +33,7 @@ class SetResourceContents
    * @param string $MimeType
    * @access public
    */
-  public function __construct($Resource, $Contents, $MimeType)
+  public function __construct($Resource = null, $Contents = null, $MimeType = null)
   {
     $this->Resource = $Resource;
     $this->Contents = $Contents;

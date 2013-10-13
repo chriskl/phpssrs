@@ -17,7 +17,7 @@ class ListSecureMethodsResponse
    * @param String[] $ListSecureMethodsResult
    * @access public
    */
-  public function __construct($ListSecureMethodsResult)
+  public function __construct($ListSecureMethodsResult = null)
   {
     $this->ListSecureMethodsResult = $ListSecureMethodsResult;
   }

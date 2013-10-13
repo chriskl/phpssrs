@@ -41,7 +41,7 @@ class SetCacheOptions
    * @param TimeExpiration $TimeExpiration
    * @access public
    */
-  public function __construct($Report, $CacheReport, $ScheduleExpiration, $TimeExpiration)
+  public function __construct($Report = null, $CacheReport = null, $ScheduleExpiration = null, $TimeExpiration = null)
   {
     $this->Report = $Report;
     $this->CacheReport = $CacheReport;

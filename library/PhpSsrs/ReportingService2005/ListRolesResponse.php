@@ -17,7 +17,7 @@ class ListRolesResponse
    * @param Role[] $Roles
    * @access public
    */
-  public function __construct($Roles)
+  public function __construct($Roles = null)
   {
     $this->Roles = $Roles;
   }

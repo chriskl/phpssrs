@@ -33,7 +33,7 @@ class GetCacheOptionsResponse
    * @param TimeExpiration $TimeExpiration
    * @access public
    */
-  public function __construct($CacheItem, $ScheduleExpiration, $TimeExpiration)
+  public function __construct($CacheItem = null, $ScheduleExpiration = null, $TimeExpiration = null)
   {
     $this->CacheItem = $CacheItem;
     $this->ScheduleExpiration = $ScheduleExpiration;

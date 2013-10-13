@@ -17,7 +17,7 @@ class SetExecutionCredentials
    * @param DataSourceCredentials[] $Credentials
    * @access public
    */
-  public function __construct($Credentials)
+  public function __construct($Credentials = null)
   {
     $this->Credentials = $Credentials;
   }

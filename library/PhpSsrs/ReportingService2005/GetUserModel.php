@@ -25,7 +25,7 @@ class GetUserModel
    * @param string $Perspective
    * @access public
    */
-  public function __construct($Model, $Perspective)
+  public function __construct($Model = null, $Perspective = null)
   {
     $this->Model = $Model;
     $this->Perspective = $Perspective;

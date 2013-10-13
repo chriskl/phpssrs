@@ -25,7 +25,7 @@ class SetItemParameters
    * @param ItemParameter[] $Parameters
    * @access public
    */
-  public function __construct($ItemPath, $Parameters)
+  public function __construct($ItemPath = null, $Parameters = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Parameters = $Parameters;

@@ -49,7 +49,7 @@ class ServerInfoHeader
    * @param TimeZoneInformation $ReportServerTimeZoneInfo
    * @access public
    */
-  public function __construct($ReportServerVersionNumber, $ReportServerEdition, $ReportServerVersion, $ReportServerDateTime, $ReportServerTimeZoneInfo)
+  public function __construct($ReportServerVersionNumber = null, $ReportServerEdition = null, $ReportServerVersion = null, $ReportServerDateTime = null, $ReportServerTimeZoneInfo = null)
   {
     $this->ReportServerVersionNumber = $ReportServerVersionNumber;
     $this->ReportServerEdition = $ReportServerEdition;

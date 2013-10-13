@@ -17,7 +17,7 @@ class ListDatabaseCredentialRetrievalOptionsResponse
    * @param String1[] $ListDatabaseCredentialRetrievalOptionsResult
    * @access public
    */
-  public function __construct($ListDatabaseCredentialRetrievalOptionsResult)
+  public function __construct($ListDatabaseCredentialRetrievalOptionsResult = null)
   {
     $this->ListDatabaseCredentialRetrievalOptionsResult = $ListDatabaseCredentialRetrievalOptionsResult;
   }

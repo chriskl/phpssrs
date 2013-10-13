@@ -41,7 +41,7 @@ class GetExecutionOptionsResponse
    * @param ScheduleDefinition $ScheduleDefinition
    * @access public
    */
-  public function __construct($ExecutionSetting, $ScheduleReference, $NoSchedule, $ScheduleDefinition)
+  public function __construct($ExecutionSetting = null, $ScheduleReference = null, $NoSchedule = null, $ScheduleDefinition = null)
   {
     $this->ExecutionSetting = $ExecutionSetting;
     $this->ScheduleReference = $ScheduleReference;

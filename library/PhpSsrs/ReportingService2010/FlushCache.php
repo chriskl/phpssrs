@@ -17,7 +17,7 @@ class FlushCache
    * @param string $ItemPath
    * @access public
    */
-  public function __construct($ItemPath)
+  public function __construct($ItemPath = null)
   {
     $this->ItemPath = $ItemPath;
   }

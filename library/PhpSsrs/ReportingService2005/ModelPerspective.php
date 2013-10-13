@@ -33,7 +33,7 @@ class ModelPerspective
    * @param string $Description
    * @access public
    */
-  public function __construct($ID, $Name, $Description)
+  public function __construct($ID = null, $Name = null, $Description = null)
   {
     $this->ID = $ID;
     $this->Name = $Name;

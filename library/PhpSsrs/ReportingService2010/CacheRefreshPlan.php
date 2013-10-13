@@ -73,7 +73,7 @@ class CacheRefreshPlan
    * @param string $LastRunStatus
    * @access public
    */
-  public function __construct($CacheRefreshPlanID, $ItemPath, $Description, $State, $LastExecuted, $ModifiedDate, $ModifiedBy, $LastRunStatus)
+  public function __construct($CacheRefreshPlanID = null, $ItemPath = null, $Description = null, $State = null, $LastExecuted = null, $ModifiedDate = null, $ModifiedBy = null, $LastRunStatus = null)
   {
     $this->CacheRefreshPlanID = $CacheRefreshPlanID;
     $this->ItemPath = $ItemPath;

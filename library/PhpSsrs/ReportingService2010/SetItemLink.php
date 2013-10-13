@@ -25,7 +25,7 @@ class SetItemLink
    * @param string $Link
    * @access public
    */
-  public function __construct($ItemPath, $Link)
+  public function __construct($ItemPath = null, $Link = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Link = $Link;

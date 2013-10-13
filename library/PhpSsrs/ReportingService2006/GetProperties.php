@@ -25,7 +25,7 @@ class GetProperties
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Item, $Properties)
+  public function __construct($Item = null, $Properties = null)
   {
     $this->Item = $Item;
     $this->Properties = $Properties;

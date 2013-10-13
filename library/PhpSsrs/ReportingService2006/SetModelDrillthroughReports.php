@@ -33,7 +33,7 @@ class SetModelDrillthroughReports
    * @param ModelDrillthroughReport[] $Reports
    * @access public
    */
-  public function __construct($Model, $ModelItemID, $Reports)
+  public function __construct($Model = null, $ModelItemID = null, $Reports = null)
   {
     $this->Model = $Model;
     $this->ModelItemID = $ModelItemID;

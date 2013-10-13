@@ -17,7 +17,7 @@ class GetModelDefinition
    * @param string $Model
    * @access public
    */
-  public function __construct($Model)
+  public function __construct($Model = null)
   {
     $this->Model = $Model;
   }

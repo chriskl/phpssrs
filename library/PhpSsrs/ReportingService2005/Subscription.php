@@ -121,7 +121,7 @@ class Subscription
    * @param boolean $IsDataDriven
    * @access public
    */
-  public function __construct($SubscriptionID, $Owner, $Path, $VirtualPath, $Report, $DeliverySettings, $Description, $Status, $Active, $LastExecuted, $ModifiedBy, $ModifiedDate, $EventType, $IsDataDriven)
+  public function __construct($SubscriptionID = null, $Owner = null, $Path = null, $VirtualPath = null, $Report = null, $DeliverySettings = null, $Description = null, $Status = null, $Active = null, $LastExecuted = null, $ModifiedBy = null, $ModifiedDate = null, $EventType = null, $IsDataDriven = null)
   {
     $this->SubscriptionID = $SubscriptionID;
     $this->Owner = $Owner;

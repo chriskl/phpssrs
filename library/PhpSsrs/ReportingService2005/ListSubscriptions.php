@@ -25,7 +25,7 @@ class ListSubscriptions
    * @param string $Owner
    * @access public
    */
-  public function __construct($Report, $Owner)
+  public function __construct($Report = null, $Owner = null)
   {
     $this->Report = $Report;
     $this->Owner = $Owner;

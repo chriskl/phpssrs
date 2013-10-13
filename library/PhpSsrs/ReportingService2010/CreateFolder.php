@@ -33,7 +33,7 @@ class CreateFolder
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Folder, $Parent, $Properties)
+  public function __construct($Folder = null, $Parent = null, $Properties = null)
   {
     $this->Folder = $Folder;
     $this->Parent = $Parent;

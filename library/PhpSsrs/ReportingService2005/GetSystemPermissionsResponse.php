@@ -17,7 +17,7 @@ class GetSystemPermissionsResponse
    * @param String3[] $Permissions
    * @access public
    */
-  public function __construct($Permissions)
+  public function __construct($Permissions = null)
   {
     $this->Permissions = $Permissions;
   }

@@ -17,7 +17,7 @@ class ExecutionInfo2
    * @param PageCountMode $PageCountMode
    * @access public
    */
-  public function __construct($PageCountMode)
+  public function __construct($PageCountMode = null)
   {
     $this->PageCountMode = $PageCountMode;
   }

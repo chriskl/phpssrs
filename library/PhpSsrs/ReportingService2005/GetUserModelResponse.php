@@ -17,7 +17,7 @@ class GetUserModelResponse
    * @param base64Binary $Definition
    * @access public
    */
-  public function __construct($Definition)
+  public function __construct($Definition = null)
   {
     $this->Definition = $Definition;
   }

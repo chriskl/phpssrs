@@ -25,7 +25,7 @@ class PrepareQuery
    * @param DataSetDefinition $DataSet
    * @access public
    */
-  public function __construct($DataSource, $DataSet)
+  public function __construct($DataSource = null, $DataSet = null)
   {
     $this->DataSource = $DataSource;
     $this->DataSet = $DataSet;

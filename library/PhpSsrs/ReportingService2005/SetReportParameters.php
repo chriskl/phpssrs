@@ -25,7 +25,7 @@ class SetReportParameters
    * @param ReportParameter[] $Parameters
    * @access public
    */
-  public function __construct($Report, $Parameters)
+  public function __construct($Report = null, $Parameters = null)
   {
     $this->Report = $Report;
     $this->Parameters = $Parameters;

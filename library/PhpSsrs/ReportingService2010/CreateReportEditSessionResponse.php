@@ -25,7 +25,7 @@ class CreateReportEditSessionResponse
    * @param Warning[] $Warnings
    * @access public
    */
-  public function __construct($EditSessionID, $Warnings)
+  public function __construct($EditSessionID = null, $Warnings = null)
   {
     $this->EditSessionID = $EditSessionID;
     $this->Warnings = $Warnings;

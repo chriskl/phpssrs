@@ -17,7 +17,7 @@ class ListCacheRefreshPlansResponse
    * @param CacheRefreshPlan[] $CacheRefreshPlans
    * @access public
    */
-  public function __construct($CacheRefreshPlans)
+  public function __construct($CacheRefreshPlans = null)
   {
     $this->CacheRefreshPlans = $CacheRefreshPlans;
   }

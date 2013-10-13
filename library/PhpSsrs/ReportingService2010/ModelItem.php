@@ -49,7 +49,7 @@ class ModelItem
    * @param ModelItem[] $ModelItems
    * @access public
    */
-  public function __construct($ID, $Name, $ModelItemTypeName, $Description, $ModelItems)
+  public function __construct($ID = null, $Name = null, $ModelItemTypeName = null, $Description = null, $ModelItems = null)
   {
     $this->ID = $ID;
     $this->Name = $Name;

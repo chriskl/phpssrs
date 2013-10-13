@@ -33,7 +33,7 @@ class RenderStreamResponse
    * @param string $MimeType
    * @access public
    */
-  public function __construct($Result, $Encoding, $MimeType)
+  public function __construct($Result = null, $Encoding = null, $MimeType = null)
   {
     $this->Result = $Result;
     $this->Encoding = $Encoding;

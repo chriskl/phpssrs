@@ -25,7 +25,7 @@ class Field
    * @param string $Name
    * @access public
    */
-  public function __construct($Alias, $Name)
+  public function __construct($Alias = null, $Name = null)
   {
     $this->Alias = $Alias;
     $this->Name = $Name;

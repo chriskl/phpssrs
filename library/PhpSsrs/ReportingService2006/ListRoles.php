@@ -25,7 +25,7 @@ class ListRoles
    * @param string $Path
    * @access public
    */
-  public function __construct($SecurityScope, $Path)
+  public function __construct($SecurityScope = null, $Path = null)
   {
     $this->SecurityScope = $SecurityScope;
     $this->Path = $Path;

@@ -33,7 +33,7 @@ class TestConnectForDataSourceDefinition
    * @param string $Password
    * @access public
    */
-  public function __construct($DataSourceDefinition, $UserName, $Password)
+  public function __construct($DataSourceDefinition = null, $UserName = null, $Password = null)
   {
     $this->DataSourceDefinition = $DataSourceDefinition;
     $this->UserName = $UserName;

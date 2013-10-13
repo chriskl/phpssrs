@@ -17,7 +17,7 @@ class DataSourceReference
    * @param string $Reference
    * @access public
    */
-  public function __construct($Reference)
+  public function __construct($Reference = null)
   {
     $this->Reference = $Reference;
   }

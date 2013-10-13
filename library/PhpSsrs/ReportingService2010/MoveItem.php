@@ -25,7 +25,7 @@ class MoveItem
    * @param string $Target
    * @access public
    */
-  public function __construct($ItemPath, $Target)
+  public function __construct($ItemPath = null, $Target = null)
   {
     $this->ItemPath = $ItemPath;
     $this->Target = $Target;

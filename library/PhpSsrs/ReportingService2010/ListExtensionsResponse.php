@@ -17,7 +17,7 @@ class ListExtensionsResponse
    * @param Extension[] $Extensions
    * @access public
    */
-  public function __construct($Extensions)
+  public function __construct($Extensions = null)
   {
     $this->Extensions = $Extensions;
   }

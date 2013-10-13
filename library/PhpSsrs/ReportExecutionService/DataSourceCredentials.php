@@ -33,7 +33,7 @@ class DataSourceCredentials
    * @param string $Password
    * @access public
    */
-  public function __construct($DataSourceName, $UserName, $Password)
+  public function __construct($DataSourceName = null, $UserName = null, $Password = null)
   {
     $this->DataSourceName = $DataSourceName;
     $this->UserName = $UserName;

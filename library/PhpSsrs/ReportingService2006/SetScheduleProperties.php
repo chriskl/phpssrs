@@ -33,7 +33,7 @@ class SetScheduleProperties
    * @param ScheduleDefinition $ScheduleDefinition
    * @access public
    */
-  public function __construct($Name, $ScheduleID, $ScheduleDefinition)
+  public function __construct($Name = null, $ScheduleID = null, $ScheduleDefinition = null)
   {
     $this->Name = $Name;
     $this->ScheduleID = $ScheduleID;

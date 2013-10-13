@@ -33,7 +33,7 @@ class CreateSchedule
    * @param string $SiteUrl
    * @access public
    */
-  public function __construct($Name, $ScheduleDefinition, $SiteUrl)
+  public function __construct($Name = null, $ScheduleDefinition = null, $SiteUrl = null)
   {
     $this->Name = $Name;
     $this->ScheduleDefinition = $ScheduleDefinition;

@@ -25,7 +25,7 @@ class FireEvent
    * @param string $EventData
    * @access public
    */
-  public function __construct($EventType, $EventData)
+  public function __construct($EventType = null, $EventData = null)
   {
     $this->EventType = $EventType;
     $this->EventData = $EventData;

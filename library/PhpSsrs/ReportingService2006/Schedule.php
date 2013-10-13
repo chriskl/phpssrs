@@ -81,7 +81,7 @@ class Schedule
    * @param ScheduleStateEnum $State
    * @access public
    */
-  public function __construct($ScheduleID, $Name, $Definition, $Description, $Creator, $NextRunTime, $LastRunTime, $ReferencesPresent, $State)
+  public function __construct($ScheduleID = null, $Name = null, $Definition = null, $Description = null, $Creator = null, $NextRunTime = null, $LastRunTime = null, $ReferencesPresent = null, $State = null)
   {
     $this->ScheduleID = $ScheduleID;
     $this->Name = $Name;

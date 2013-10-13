@@ -41,7 +41,7 @@ class CreateLinkedReport
    * @param Property[] $Properties
    * @access public
    */
-  public function __construct($Report, $Parent, $Link, $Properties)
+  public function __construct($Report = null, $Parent = null, $Link = null, $Properties = null)
   {
     $this->Report = $Report;
     $this->Parent = $Parent;

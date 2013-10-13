@@ -17,7 +17,7 @@ class ListScheduleStatesResponse
    * @param String1[] $ListScheduleStatesResult
    * @access public
    */
-  public function __construct($ListScheduleStatesResult)
+  public function __construct($ListScheduleStatesResult = null)
   {
     $this->ListScheduleStatesResult = $ListScheduleStatesResult;
   }

@@ -17,7 +17,7 @@ class MinuteRecurrence
    * @param int $MinutesInterval
    * @access public
    */
-  public function __construct($MinutesInterval)
+  public function __construct($MinutesInterval = null)
   {
     $this->MinutesInterval = $MinutesInterval;
   }

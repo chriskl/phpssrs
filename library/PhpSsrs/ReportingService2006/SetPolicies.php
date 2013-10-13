@@ -25,7 +25,7 @@ class SetPolicies
    * @param Policy[] $Policies
    * @access public
    */
-  public function __construct($Item, $Policies)
+  public function __construct($Item = null, $Policies = null)
   {
     $this->Item = $Item;
     $this->Policies = $Policies;

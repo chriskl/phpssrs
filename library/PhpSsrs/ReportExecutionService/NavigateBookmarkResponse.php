@@ -25,7 +25,7 @@ class NavigateBookmarkResponse
    * @param string $UniqueName
    * @access public
    */
-  public function __construct($PageNumber, $UniqueName)
+  public function __construct($PageNumber = null, $UniqueName = null)
   {
     $this->PageNumber = $PageNumber;
     $this->UniqueName = $UniqueName;

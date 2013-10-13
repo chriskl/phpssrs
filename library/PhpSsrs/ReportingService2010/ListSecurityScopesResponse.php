@@ -17,7 +17,7 @@ class ListSecurityScopesResponse
    * @param String1[] $ListSecurityScopesResult
    * @access public
    */
-  public function __construct($ListSecurityScopesResult)
+  public function __construct($ListSecurityScopesResult = null)
   {
     $this->ListSecurityScopesResult = $ListSecurityScopesResult;
   }
